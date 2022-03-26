@@ -2,7 +2,6 @@ import React from 'react';
 
 
 import MainHeader from '../tailwindComps/Hero'
-import SecondaryHeader from '../tailwindComps/SecondaryHeader'
 
 const Header = (props) => {
 
@@ -25,11 +24,7 @@ const Header = (props) => {
 
     </section>
   )
-  const SecondaryHeaderComp = () => (
-    <section class="headerPictureWrapper">
-   <SecondaryHeader />
-   </section>
-  )
+
   const StoreHeader = () => (
     <section class="headerPictureWrapper">
    <div class="headerBorder">
@@ -44,8 +39,6 @@ const Header = (props) => {
     switch(props.title) {
         case firstTitle:
           return <MainHeader />
-        case secondTitle:
-          return <SecondaryHeader title={props.title} text={props.text} />
 
         default:
           return <StoreHeader />

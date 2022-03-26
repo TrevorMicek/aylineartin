@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { Helmet } from "react-helmet";
 
-import NavBar from "./NavBar";
+
 import Header from "./Header";
 import Footer from "../tailwindComps/Footer";
 import HeroComp from "../tailwindComps/Hero";
@@ -52,7 +52,7 @@ const Layout = ({children, title, text, pageLayout}) => {
 
 
         <main style={pageLayout}  class="main">{children}</main>
-        <Footer />
+
        </div>
       </div>
 
