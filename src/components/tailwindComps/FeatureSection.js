@@ -4,6 +4,26 @@ import { CodeIcon, TagIcon, DatabaseIcon,TerminalIcon, UploadIcon, LightningBolt
 
 
 import img from '../../images/movingCurve.jpg'
+const benefits = [
+  {
+    name: '100% Hand Coded',
+    description:
+    "All of our sites are made from scratch using our own code. This allows us full control over the design and functionality, leading to more traffic and conversions.",
+    icon: CodeIcon,
+  },
+  {
+    name: 'Optimization',
+    description:
+      "The #1 reason visitors will leave a website is if it's slow to load. Our sites are lightning fast, accessible and SEO friendly to rank higher on Google and provide a better user experience.",
+    icon: LightningBoltIcon,
+  },
+  {
+    name: 'Subscription Pricing',
+    description:
+      "We use a unique subscription pricing model, so you enjoy no upfront costs, affordable packages and no hidden fees.",
+    icon: TagIcon,
+  }
+]
 const features = [
   {
     name: '100% Hand Coded',
@@ -25,7 +45,6 @@ const features = [
   }
 ]
 
-
 const metricsImg = require('../../images/metrics.png')
 export default function FeatureSection() {
 
@@ -46,6 +65,23 @@ export default function FeatureSection() {
         </div>
 
         <div className="mt-10">
+        <h2 className="mt-5 mb-6 text-base text-default font-semibold tracking-wide uppercase">Benefits</h2>
+          <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+            {benefits.map((benefit) => (
+              <div key={benefit.name} className="relative">
+                <dt>
+                  <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <benefit.icon className="h-6 w-6" aria-hidden="true" />
+                  </div>
+                  <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{benefit.name}</p>
+                </dt>
+                <dd className="mt-2 ml-16 text-base text-gray-600">{benefit.description}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+        <div className="mt-10">
+        <h2 className="mt-5 mb-6 text-base text-default font-semibold tracking-wide uppercase">Features</h2>
           <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
             {features.map((feature) => (
               <div key={feature.name} className="relative">
