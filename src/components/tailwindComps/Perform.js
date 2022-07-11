@@ -38,7 +38,7 @@ return (
   <div style={{gridColumn:"span 7", gridRowStart:"fourth", gridRowEnd:"fifth", position: 'relative', zIndex:'12', top: '-3vh', zIndex: '21'}}>
       <img src={background} width="400px" height="200px" className="w-full h-36 absolute" />
     <div className="font-default h-24 py-0 ">
-    <div className="max-w-7xl mx-auto text-center pt-3  sm:px-6 lg:py-16 lg:px-8">
+    <div className="max-w-7xl mx-auto text-center pt-3   lg:py-16 lg:px-8">
     <div className="relative top-2">
           <h2 className="text-center mb-0 -mt-4 text-white text-xs leading-8 tracking-tight ">
             <img src={performed} width="150px" height="75px" className="mx-auto" />
