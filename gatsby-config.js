@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Custom Ecommerce Websites`,
-    description: `High Quality Ecommerce Websites By Trevor`,
+    title: `Rock n Roll`,
+    description: `Music by Ayline Artin`,
     author: 'Trevor Micek',
   },
   plugins: [
-  
+
         'gatsby-plugin-postcss',
         {
       resolve: `gatsby-plugin-google-gtag`,
@@ -16,7 +16,7 @@ module.exports = {
           "AW-CONVERSION_ID", // Google Ads / Adwords / AW
           "DC-FLOODIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
         ],
-       
+
       },
     },
     `gatsby-plugin-react-helmet`,

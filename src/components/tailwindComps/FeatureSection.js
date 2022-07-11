@@ -15,13 +15,13 @@ export default function Example() {
   return (
     <div className="-mt-14 py-12 bg-black" style={{gridColumn:"span 7", gridRowStart:"first", gridRowEnd:"second"}}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-center justify-evenly flex-row lg:text-center">
-        <span className="w-52 text-white">
+        <div className="flex justify-center justify-between flex-row lg:text-center">
+        <span className="w-40 text-white">
             <img src={portrait} width="300px" height="400px" />
           </span>
           <span>
-          <img src={about} width="100px" height="100px" className="w-44 mt-8" />
-          <p className="-mt-5 w-80 text-left text-gray-50 font-serif text-sm font-thin lg:mx-auto">
+          <img src={about} width="100px" height="100px" className="w-36 mt-8" />
+          <p className="-mt-5 w-44 text-left text-gray-50 font-serif text-xs font-thin lg:mx-auto">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>
           </span>
