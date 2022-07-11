@@ -1,7 +1,17 @@
 
 import React from 'react'
 
-import box from '../../images/boxHeader.webp'
+import { Fragment } from 'react'
+import { Popover, Transition } from '@headlessui/react'
+import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import { ChevronRightIcon } from '@heroicons/react/solid'
+import { Link } from "gatsby"
+
+import BG from '../../images/header/PNG/Banner.png'
+import available from '../../images/header/PNG/available.png'
+import yt from '../../images/pics/PNG/youtube.png'
+import spotify from '../../images/pics/PNG/spotify.png'
+import apple from '../../images/pics/PNG/applemusic.png'
 
 
 
@@ -9,49 +19,69 @@ import box from '../../images/boxHeader.webp'
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
-
+/*
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=1">
+</iframe>
+*/
 export default function Example() {
+  const navigation = [
+    { name: 'About Me', href: '/' },
+    { name: 'Music', href: '/#music' },
+    { name: 'Contact Me', href: '/#contact' }
+  ]
   return (
-    <div className="relative bg-gray-50" style={{gridColumn:"span 5", gridRowStart:"header", gridRowEnd:"main"}}>
+    <div className="relative " style={{gridColumn:"span 5", gridRowStart:"header", gridRowEnd:"main"}}>
 
+<Popover as="header" className="z-10 absolute top-3 right-6 border-solid ">
+        <div className="bg-transparent pt-6">
+          <nav
+            className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
+            aria-label="Global"
+          >
+            <div className="flex items-center flex-1">
 
-      <main className="lg:relative">
-        <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
-          <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
-            <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
-              <span className="block xl:inline">Keep your things clean</span>{' '}
-              <span className="block text-blue xl:inline">in under 3 minutes</span>
-            </h1>
-            <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-              Our unique easy-to-use box helps keep all your everday items clean with our patented UVC box. Anything that fits, gets ultra clean!
-            </p>
-            <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
-              <div className="rounded-md shadow">
-                <a
-                  href="#store"
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
-                >
-                  Get started
-                </a>
-              </div>
-              <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-                <a
-                  href="#video"
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
-                >
-                  Live demo
-                </a>
+              <div className="space-x-4 whitespace-nowrap md:flex md:absolute md:right-10">
+                {navigation.map((item) => (
+                  <Link to={item.href} key={item.name} className="text-xs font-xs text-black hover:text-red-700">
+                    {item.name}
+                  </Link>
+                ))}
               </div>
             </div>
-          </div>
+
+          </nav>
         </div>
-        <div className="relative border-2 bottom-4 w-full h-96 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
+
+
+      </Popover>
+
+      <main className="lg:relative">
+
+
           <img
-            className="absolute inset-0 w-full h-full object-cover"
-            src={box}
-            alt=""
+            className="relative z-0 inset-0 w-full h-full object-cover"
+            src={BG}
+            alt="album cover, lady in red dress. Ayline Artin"
           />
-        </div>
+
+
+
+
+        <div className=" -mt-6 bg-gray-100 mx-auto flex justify-around flex-row">
+            <div className="">
+              <img src={available} width="100px" height="100px" className="w-44 mt-8" />
+              <div className="-mt-4 flex flew-row space-x-4">
+                <img src={yt} width="55px" height="50px" />
+                <img src={spotify} width="70px" height="50px" />
+                <img src={apple} width="60px" height="50px" />
+              </div>
+            </div>
+            <div className="">
+            <iframe src="https://open.spotify.com/embed/user/spotify/playlist/37i9dQZF1DWWvHBEQLnV1N" width="350" height="80" frameborder="0" allowtransparency="true" className="mt-12"></iframe>
+            </div>
+
+          </div>
       </main>
     </div>
   )

@@ -7,63 +7,27 @@ import boxFour from '../../images/boxFour.webp'
 import boxFive from '../../images/boxFive.webp'
 import boxSix from '../../images/boxSix.webp'
 
-const features = [
-  {
-    name: 'Competitive exchange rates',
-    description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: boxTwo,
-  },
-  {
-    name: 'No hidden fees',
-    description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: boxThree,
-  },
-  {
-    name: 'Transfers are instant',
-    description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: boxFour,
-  },
-  {
-    name: 'Mobile notifications',
-    description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: boxFive,
-  },
-]
+import about from '../../images/about/PNG/Aboutme.png'
+import portrait from '../../images/about/PNG/image.png'
+
 
 export default function Example() {
   return (
-    <div className="py-12 bg-white" style={{gridColumn:"span 7", gridRowStart:"first", gridRowEnd:"second"}}>
+    <div className="-mt-14 py-12 bg-black" style={{gridColumn:"span 7", gridRowStart:"first", gridRowEnd:"second"}}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="lg:text-center">
-          <h2 className="text-base text-blue font-semibold tracking-wide uppercase">UVC box</h2>
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            A better way to clean
+        <div className="flex justify-center justify-evenly flex-row lg:text-center">
+        <span className="w-52 text-white">
+            <img src={portrait} width="300px" height="400px" />
+          </span>
+          <span>
+          <img src={about} width="100px" height="100px" className="w-44 mt-8" />
+          <p className="-mt-5 w-80 text-left text-gray-50 font-serif text-sm font-thin lg:mx-auto">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>
-          <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-            accusamus quisquam.
-          </p>
+          </span>
+
         </div>
 
-        <div className="mt-10">
-          <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-            {features.map((feature) => (
-              <div key={feature.name} className="relative flex items-center justify-center">
-                <dt>
-                  <div className="relative flex items-center justify-center w-screen rounded-md bg-blue text-white">
-                    <img src={feature.icon} height="100px" width="100px" className="mt-6 h-42 w-11/12" aria-hidden="true" />
-                  </div>
-
-                </dt>
-
-              </div>
-            ))}
-          </dl>
-        </div>
       </div>
     </div>
   )

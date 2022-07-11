@@ -1,84 +1,40 @@
-import React, { useState } from 'react'/* This example requires Tailwind CSS v2.0+ */
-import { CheckCircleIcon } from '@heroicons/react/solid'
-import box from '../../images/boxOne.webp'
-const includedFeatures = [
-  'Private forum access',
-  'Member resources',
-  'Entry to annual conference',
-  'Official member t-shirt',
-]
+
+import React from 'react'
+
+/* This example requires Tailwind CSS v2.0+ */
+import boxTwo from '../../images/boxTwo.webp'
+import boxThree from '../../images/boxThree.webp'
+import boxFour from '../../images/boxFour.webp'
+import boxFive from '../../images/boxFive.webp'
+import boxSix from '../../images/boxSix.webp'
+
+import form from '../../images/music/PNG/Form.png'
+import music from '../../images/music/PNG/Music.png'
 
 export default function Example() {
   return (
-    <div className="bg-gray-100" style={{gridColumn:"span 7", gridRowStart:"third", gridRowEnd:"sixth"}}>
-      <div className="pt-12 sm:pt-16 lg:pt-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl lg:text-5xl">Simple no-tricks pricing</h2>
-            <p className="mt-4 text-xl text-gray-600">
-              If you're not satisfied, contact us within the first 14 days and we'll send you a full refund.
-            </p>
-          </div>
+    <div className=" -mt-14 bg-white" style={{gridColumn:"span 7", gridRowStart:"third", gridRowEnd:"sixth"}}>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className=" -mt-4 flex justify-center justify-evenly flex-row lg:text-center">
+
+          <span>
+          <img src={music} width="100px" height="100px" className="w-44 mt-8" />
+          <p className="-mt-12 w-80 text-left text-gray-900 font-serif text-sm font-thin lg:mx-auto">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          </span>
+          <span className="relative -right-28 -mr-3 overflow-hidden w-52 text-white">
+            <img src={form} width="300px" height="400px" />
+          </span>
         </div>
+
       </div>
-      <div className="mt-8 bg-white pb-16 sm:mt-12 sm:pb-20 lg:pb-28">
-        <div className="relative">
-          <div className="absolute inset-0 h-1/2 bg-gray-100" />
-          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none lg:flex">
-            <div className="relative flex items-center justify-center w-full rounded-md bg-blue text-white">
-                    <img src={box} height="100px" width="100px" className="mt-6 h-42 w-11/12" aria-hidden="true" />
-                  </div>
-              <div className="flex-1 bg-white px-6 py-8 lg:p-12">
-
-
-
-                <div className="mt-8">
-                  <div className="flex items-center">
-                    <h4 className="flex-shrink-0 pr-4 bg-white text-sm tracking-wider font-semibold uppercase text-indigo-600">
-                      What's included
-                    </h4>
-                    <div className="flex-1 border-t-2 border-gray-200" />
-                  </div>
-                  <ul role="list" className="mt-8 space-y-5 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5">
-                    {includedFeatures.map((feature) => (
-                      <li key={feature} className="flex items-start lg:col-span-1">
-                        <div className="flex-shrink-0">
-                          <CheckCircleIcon className="h-5 w-5 text-green-400" aria-hidden="true" />
-                        </div>
-                        <p className="ml-3 text-sm text-gray-700">{feature}</p>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-              <div className="py-8 px-6 text-center bg-gray-50 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
-                <p className="text-lg leading-6 font-medium text-gray-900">Pay once, own it forever</p>
-                <div className="mt-4 flex items-center justify-center text-5xl font-extrabold text-gray-900">
-                  <span>$349</span>
-                  <span className="ml-3 text-xl font-medium text-gray-500">USD</span>
-                </div>
-                <p className="mt-4 text-sm">
-                  <a href="#" className="font-medium text-gray-500 underline">
-                    Learn about our membership policy
-                  </a>
-                </p>
-                <div className="mt-6">
-                  <div className="rounded-md shadow">
-                    <a
-                      href="#"
-                      className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue hover:bg-gray-900"
-                    >
-                      Get Access
-                    </a>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div className="mx-auto border-2">
+      <iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=1"
+className="mx-auto">
+</iframe>
+</div>
     </div>
   )
 }
