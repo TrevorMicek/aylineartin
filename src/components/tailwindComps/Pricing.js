@@ -29,7 +29,12 @@ export default function Example() {
 
       </div>
       <div className="mx-auto">
-
+      <iframe width="350" height="315"
+      loading="lazy"
+src="https://res.cloudinary.com/websites-by-trevor/video/upload/v1657736170/trailer_gef7mv.mp4"
+autoplay
+className="mx-auto w-full">
+</iframe>
 </div>
     </div>
   )
