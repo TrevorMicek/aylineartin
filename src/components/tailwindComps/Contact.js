@@ -148,7 +148,7 @@ const confirmMessage = ['Thanks for reaching out to Websites By Trevor!', 'We wi
         </svg>
         <div className="text-center pt-16">
           <h2 className="mx-auto">
-            <img src={Contact} width="150px" height="100px" className="mx-auto -mt-16" />
+            <img src={Contact} width="150px" height="100px" className="mx-auto -mt-16" loading="lazy" />
           </h2>
 
         </div>
