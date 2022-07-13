@@ -10,7 +10,7 @@ import boxSix from '../../images/boxSix.webp'
 
 import form from '../../images/music/PNG/Form.png'
 import music from '../../images/music/PNG/Music.png'
-
+import vid from '../../images/trailer.mp4'
 export default function Example() {
   return (
     <div className=" -mt-14 bg-white" style={{gridColumn:"span 7", gridRowStart:"third", gridRowEnd:"fourth"}}>
@@ -32,7 +32,8 @@ export default function Example() {
       <div className="mx-auto">
       <iframe width="350" height="315"
       loading="lazy"
-src="https://www.youtube.com/embed/dRnqcr3FGvs?controls=1"
+src={vid}
+autoplay
 className="mx-auto">
 </iframe>
 </div>

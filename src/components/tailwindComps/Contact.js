@@ -3,7 +3,9 @@ import { Switch } from '@headlessui/react'
 import emailjs from 'emailjs-com';
 
 import Confirm from './Confirmation'
-
+import Contact from '../../images/6_ContactMe/PNG/contact.png'
+import bg from '../../images/6_ContactMe/PNG/Background_1.png'
+import submit from '../../images/6_ContactMe/PNG/button.png'
 import UseInput from '../../customHooks/useInput'
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -55,7 +57,7 @@ const handleChange = (e) => {
 }
 const validateError = (label, which) => {
   const errorMessage = () => (
-      <div className="text-red-500">
+      <div className="text-red-500 absolute">
       * {which} input is empty
       </div>
   )
@@ -97,8 +99,9 @@ const onSubmit = (e) => {
 const confirmMessage = ['Thanks for reaching out to Websites By Trevor!', 'We will respond ASAP']
 
   return (
-    <div className="bg-white py-16 px-4 overflow-hidden sm:px-6 lg:px-8 lg:py-24" style={{gridColumn:"span 7", gridRowStart:"fifth", gridRowEnd:"sixth"}}>
-      <div className="relative max-w-xl mx-auto" >
+    <div className="   border-2 overflow-hidden sm:px-6 lg:px-8 lg:py-24" style={{gridColumn:"span 7", gridRowStart:"fifth", gridRowEnd:"sixth"}}>
+      <img src={bg} width="200px" height="100px" className=" bg-contact  p-0 m-0 bg-no-repeat  h-72 absolute left-0 w-full" />
+      <div className="px-4 relative max-w-xl mx-auto" >
         <svg
           className="absolute left-full transform translate-x-1/2"
           width={404}
@@ -143,18 +146,20 @@ const confirmMessage = ['Thanks for reaching out to Websites By Trevor!', 'We wi
           </defs>
           <rect width={404} height={404} fill="url(#85737c0e-0916-41d7-917f-596dc7edfa27)" />
         </svg>
-        <div className="text-center">
-          <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Questions, Comments, Concerns?</h2>
-          <p className="mt-4 text-lg leading-6 text-gray-500">
-            We will get back to you by the end of the day!
-          </p>
+        <div className="text-center pt-16">
+          <h2 className="mx-auto">
+            <img src={Contact} width="150px" height="100px" className="mx-auto -mt-16" />
+          </h2>
+
         </div>
-        <div className="mt-12">
+        <div className="-mt-10 h-52">
         {confirm ? <Confirm prompt="false" message={confirmMessage} confirm={() =>setConfirm(false)} /> : null}
           <form ref={form} onSubmit={onSubmit} className="sm:grid-cols-2 sm:gap-x-8">
-            <div>
+            <div className="sm:col-span-2">
 
-              <label htmlFor="name" className="block text-sm font-medium text-gray-700">Full name</label> {validateName}
+              <label htmlFor="name" className="block text-sm font-medium text-gray-700">
+                {validateName}
+                </label>
 
               <div className="mt-1">
                 <input
@@ -165,28 +170,15 @@ const confirmMessage = ['Thanks for reaching out to Websites By Trevor!', 'We wi
                   value={name}
                   onChange={handleChange}
                   key='name'
-                  placeholder="Enter name..."
-                  className="py-3 px-4 mb-6 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+                  placeholder="name"
+                  className="py-0 px-4 mx-auto mb-4 block text-gray-400 bg-black w-44 shadow-sm  border-0 border-b-2 border-grey-300"
                 />
               </div>
             </div>
-            <div className="sm:col-span-2">
-              <label htmlFor="company" className="block text-sm font-medium text-gray-700">
-                Company
-              </label>
-              <div className="mt-1">
-                <input
-                  type="text"
-                  name="company"
-                  id="company"
-                  autoComplete="organization"
-                  className="py-3 px-4 mb-6 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
-                />
-              </div>
-            </div>
+
             <div className="sm:col-span-2">
               <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-                Email {validateEmail}
+                 {validateEmail}
               </label>
               <div className="mt-1">
                 <input
@@ -197,101 +189,39 @@ const confirmMessage = ['Thanks for reaching out to Websites By Trevor!', 'We wi
                   value={email}
                   onChange={handleChange}
                   key='name'
-                  placeholder="Enter email..."
-                  className="py-3 px-4 mb-6 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+                  placeholder="email address"
+                  className="py-0 px-4 mx-auto mb-4 block text-gray-400 bg-black w-44 shadow-sm border-0 border-b-2 border-grey-300 "
                 />
               </div>
             </div>
 
-            <div className="sm:col-span-2">
-              <label htmlFor="phone-number" className="block text-sm font-medium text-gray-700">
-                Phone Number
-              </label>
-              <div className="mt-1 relative rounded-md shadow-sm">
-                <div className="absolute inset-y-0 left-0 flex items-center">
-                  <label htmlFor="country" className="sr-only">
-                    Country
-                  </label>
-                  <select
-                    id="country"
-                    name="country"
-                    className="h-full py-0 pl-4 pr-8 border-transparent bg-transparent text-gray-500 focus:ring-indigo-500 focus:border-indigo-500 rounded-md"
-                  >
-                    <option>US</option>
-                    <option>CA</option>
-                    <option>EU</option>
-                  </select>
-                </div>
-                <input
-                  type="text"
-                  name="phone-number"
-                  id="phone-number"
-                  autoComplete="tel"
-                  className="py-3 px-4 mb-6 block w-full pl-20 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
-                  placeholder="+1 (555) 987-6543"
-                />
-              </div>
-            </div>
+
             <div className="sm:col-span-2">
               <label htmlFor="message" className="block text-sm font-medium text-gray-700">
-                Message
+
               </label> {validateMessage}
               <div className="mt-1">
                 <textarea
                   id="message"
                   name="message"
-                  rows={4}
+                  rows={3}
                   value={message}
                   onChange={handleChange}
                   key='name'
-                  placeholder="Enter message..."
-                  className="py-3 px-4 mb-6 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
+                  placeholder="message"
+                  className="py-0 px-4 mx-auto text-gray-400 mb-4 block resize-none bg-black w-44 shadow-sm  border-0 border-b-2 border-grey-300"
 
                 />
+
               </div>
             </div>
-            <div className="sm:col-span-2">
-              <div className="flex items-start">
-                <div className="flex-shrink-0">
-                  <Switch
-                    checked={agreed}
-                    onChange={setAgreed}
-                    className={classNames(
-                      agreed ? 'bg-indigo-600' : 'bg-gray-200',
-                      'relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
-                    )}
-                  >
-                    <span className="sr-only">Agree to policies</span>
-                    <span
-                      aria-hidden="true"
-                      className={classNames(
-                        agreed ? 'translate-x-5' : 'translate-x-0',
-                        'inline-block h-5 w-5 rounded-full bg-white shadow transform ring-0 transition ease-in-out duration-200'
-                      )}
-                    />
-                  </Switch>
-                </div>
-                <div className="ml-3">
-                  <p className="text-base text-gray-500">
-                    By selecting this, you agree to the{' '}
-                    <a href="#" className="font-medium text-gray-700 underline">
-                      Privacy Policy
-                    </a>{' '}
-                    and{' '}
-                    <a href="#" className="font-medium text-gray-700 underline">
-                      Cookie Policy
-                    </a>
-                    .
-                  </p>
-                </div>
-              </div>
-            </div>
+
             <div className="sm:col-span-2">
               <button
                 type="submit"
-                className="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                className=" mx-auto block -mt-2"
               >
-                Let's talk
+                <img src={submit} width="200px" height="50px" />
               </button>
             </div>
           </form>
