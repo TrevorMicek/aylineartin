@@ -8,8 +8,8 @@ import boxFour from '../../images/boxFour.webp'
 import boxFive from '../../images/boxFive.webp'
 import boxSix from '../../images/boxSix.webp'
 
-import form from '../../images/music/PNG/Form.png'
-import music from '../../images/music/PNG/Music.png'
+import form from '../../images/4_Music/Form.png'
+import music from '../../images/4_Music/Music.png'
 import vid from '../../images/trailer.mp4'
 export default function Example() {
   return (

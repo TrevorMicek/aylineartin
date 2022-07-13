@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import Ticker from 'react-ticker'
 
-import background from '../../images/5_Performed/PNG/background.png'
+import background from '../../images/5_PerformedAt/PNG/Background.png'
 import performed from '../../images/5_Performed/PNG/Performed.png'
 const CityScroll = () => {
   const [tickerSpeed, setTickerSpeed] = useState(1000);

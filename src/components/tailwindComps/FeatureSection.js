@@ -7,7 +7,7 @@ import boxFour from '../../images/boxFour.webp'
 import boxFive from '../../images/boxFive.webp'
 import boxSix from '../../images/boxSix.webp'
 
-import about from '../../images/about/PNG/Aboutme.png'
+import about from '../../images/3_About/about.png'
 import portrait from '../../images/about.jpg'
 
 
