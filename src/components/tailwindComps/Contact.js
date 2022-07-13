@@ -97,7 +97,7 @@ const onSubmit = (e) => {
 const confirmMessage = ['Thanks for reaching out to Websites By Trevor!', 'We will respond ASAP']
 
   return (
-    <div className="bg-white py-16 px-4 overflow-hidden sm:px-6 lg:px-8 lg:py-24" style={{gridColumn:"span 7", gridRowStart:"first", gridRowEnd:"second"}}>
+    <div className="bg-white py-16 px-4 overflow-hidden sm:px-6 lg:px-8 lg:py-24" style={{gridColumn:"span 7", gridRowStart:"fifth", gridRowEnd:"sixth"}}>
       <div className="relative max-w-xl mx-auto" >
         <svg
           className="absolute left-full transform translate-x-1/2"

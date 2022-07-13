@@ -5,6 +5,7 @@ import SEO from "../components/layout/seo"
 import About from '../components/tailwindComps/FeatureSection'
 import Music from '../components/tailwindComps/Pricing'
 import PerformedAt from '../components/tailwindComps/Perform'
+import Contact from '../components/tailwindComps/Contact'
 const IndexPage = () => {
 
   return (
@@ -14,6 +15,7 @@ const IndexPage = () => {
     <About />
     <Music />
     <PerformedAt />
+    <Contact />
   </Layout>
   )
 }

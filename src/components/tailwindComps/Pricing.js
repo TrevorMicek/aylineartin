@@ -31,6 +31,7 @@ export default function Example() {
       </div>
       <div className="mx-auto">
       <iframe width="350" height="315"
+      loading="lazy"
 src="https://www.youtube.com/embed/dRnqcr3FGvs?controls=1"
 className="mx-auto">
 </iframe>
