@@ -40,7 +40,7 @@ return (
       <iframe width="350" height="400"
       loading="lazy"
 src="https://res.cloudinary.com/websites-by-trevor/video/upload/v1657736170/trailer_gef7mv.mp4"
-autoplay
+autoplay="true"
 className="mx-auto w-full">
 </iframe>
 </div>
