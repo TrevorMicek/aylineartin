@@ -77,9 +77,7 @@ export default function Example() {
                 <img src={apple} width="40px" height="50px" />
               </div>
             </div>
-            <div className="w-44 relative right-14">
-            <iframe src="https://open.spotify.com/embed/artist/0HTVSskXDPfVh6urnLsK9J" width="225" height="80" frameborder="0" allowtransparency="true" className="mt-12"></iframe>
-            </div>
+
 
           </div>
       </main>

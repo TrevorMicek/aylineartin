@@ -10,7 +10,6 @@ import boxSix from '../../images/boxSix.webp'
 
 import form from '../../images/4_Music/Form.png'
 import music from '../../images/4_Music/Music.png'
-import vid from '../../images/trailer.mp4'
 export default function Example() {
   return (
     <div className=" -mt-14 bg-white" style={{gridColumn:"span 7", gridRowStart:"third", gridRowEnd:"fourth"}}>
