@@ -7,8 +7,8 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { ChevronRightIcon } from '@heroicons/react/solid'
 import { Link } from "gatsby"
 
-import BG from '../../images/header/PNG/Banner.png'
-import available from '../../images/header/PNG/available.png'
+import BG from '../../images/header2/header.png'
+import available from '../../images/available/available.png'
 import yt from '../../images/pics/PNG/youtube.png'
 import spotify from '../../images/pics/PNG/spotify.png'
 import apple from '../../images/pics/PNG/applemusic.png'
