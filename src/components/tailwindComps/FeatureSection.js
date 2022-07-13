@@ -32,10 +32,10 @@ export default function Example() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="space-x-8 flex justify-center justify-around flex-row lg:text-center">
         <span className="w-40 text-white">
-            <img src={portrait} width="300px" height="400px" />
+            <img src={portrait} width="300px" height="400px" loading="lazy" />
           </span>
           <span>
-          <img src={about} width="100px" height="100px" className="w-36 mt-8" />
+          <img src={about} width="100px" height="100px" className="w-36 mt-8" loading="lazy" />
           <LearnSection />
           </span>
 

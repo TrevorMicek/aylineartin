@@ -30,11 +30,11 @@ export default function Example() {
       <div className="ml-8 overflow-hidden -mt-4 space-x-8 flex justify-center justify-around flex-row lg:text-center">
 
           <span>
-          <img src={music} width="100px" height="100px" className="w-36 mt-8" />
+          <img src={music} width="100px" height="100px" className="w-36 mt-8" loading="lazy" />
           <LearnSection />
           </span>
           <span className=" w-44 h-60 relative -right-3 overflow-hidden  text-white">
-            <img src={form} width="300px" height="400px"  />
+            <img src={form} width="300px" height="400px" loading="lazy" />
           </span>
         </div>
 
