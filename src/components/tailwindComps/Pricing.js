@@ -25,7 +25,7 @@ export default function Example() {
     )
   }
   return (
-    <div id="music" className=" -mt-14 pb-4 -mb-3 bg-black" style={{gridColumn:"span 7", gridRowStart:"third", gridRowEnd:"fourth"}}>
+    <div id="music" className=" -mt-14 pb-4 -mb-5 bg-black" style={{gridColumn:"span 7", gridRowStart:"third", gridRowEnd:"fourth"}}>
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
       <div className="ml-8 overflow-hidden -mt-4 space-x-8 flex justify-center justify-around flex-row lg:text-center">
 
