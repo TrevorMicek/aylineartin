@@ -26,7 +26,7 @@ src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=1">
 */
 export default function Example() {
   const navigation = [
-    { name: 'About Me', href: '/' },
+    { name: 'About Me', href: '/#about' },
     { name: 'Music', href: '/#music' },
     { name: 'Contact Me', href: '/#contact' }
   ]
@@ -70,7 +70,7 @@ export default function Example() {
 
         <div className=" -mt-6 bg-gray-100 mx-auto flex justify-around flex-row">
             <div className="">
-              <img src={available} width="100px" height="100px" className="w-28 mt-8" />
+              <img src={available} width="100px" height="100px" className="w-28 mt-8 sm:w-40 md:w-52 lg:w-60" />
               <div className="-mt-4 w-44 flex flew-row space-x-4">
                 <img src={yt} width="45px" height="50px" />
                 <img src={spotify} width="55px" height="50px" />
@@ -78,7 +78,7 @@ export default function Example() {
               </div>
             </div>
             <div className="w-44 relative right-14">
-            <iframe src="https://open.spotify.com/embed/artist/0HTVSskXDPfVh6urnLsK9J" width="225" height="80" frameborder="0" allowtransparency="true" className="mt-12"></iframe>
+            <iframe src="https://open.spotify.com/embed/artist/0HTVSskXDPfVh6urnLsK9J" width="225" height="80" frameborder="0" allowtransparency="true" className="mt-12 sm:w-64 md:w-72 lg:w-80"></iframe>
             </div>
 
           </div>
