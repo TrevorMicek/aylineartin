@@ -30,12 +30,7 @@ export default function Example() {
 
       </div>
       <div className="mx-auto">
-      <iframe width="350" height="315"
-      loading="lazy"
-src={vid}
-autoplay
-className="mx-auto">
-</iframe>
+
 </div>
     </div>
   )
