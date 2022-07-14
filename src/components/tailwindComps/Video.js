@@ -39,7 +39,7 @@ return (
      <div className="mx-auto">
       <iframe width="350" height="600"
 
-src="https://res.cloudinary.com/websites-by-trevor/video/upload/v1657736170/trailer_gef7mv.mp4"
+src="https://res.cloudinary.com/websites-by-trevor/video/upload/v1657736170/trailer_gef7mv.mp4#t=1"
 autoplay
 className="mx-auto w-full">
 </iframe>
