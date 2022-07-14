@@ -58,9 +58,7 @@ export default function Example() {
       </Popover>
 
       <main className="lg:relative">
-                    <div className="w-full h-32 absolute -top-12">
 
-                    </div>
 
           <img
             className="relative z-0 inset-0 w-full h-full object-cover"
