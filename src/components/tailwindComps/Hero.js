@@ -68,7 +68,7 @@ export default function Example() {
 
 
 
-        <div className=" -mt-6 bg-gray-100 mx-auto flex justify-around flex-row">
+        <div className=" -mt-6 -mb-10 bg-black mx-auto flex justify-around flex-row">
             <div className="">
               <img src={available} width="100px" height="100px" className="w-28 mt-8 sm:w-40 md:w-52 lg:w-60" />
               <div className="-mt-4 w-44 flex flew-row space-x-4">

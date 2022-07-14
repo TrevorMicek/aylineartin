@@ -25,7 +25,7 @@ export default function Example() {
     )
   }
   return (
-    <div id="music" className=" -mt-14 pb-4 -mb-3 bg-black" style={{gridColumn:"span 7", gridRowStart:"third", gridRowEnd:"fourth", zIndex:"22"}}>
+    <div id="music" className="pt-12 -mt-14 pb-4 -mb-3 bg-black" style={{gridColumn:"span 7", gridRowStart:"third", gridRowEnd:"fourth", zIndex:"22"}}>
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
       <div className="ml-8 overflow-hidden -mt-4 space-x-8 flex justify-center justify-around flex-row lg:text-center">
 
@@ -33,8 +33,8 @@ export default function Example() {
           <img src={music} width="100px" height="100px" className="w-36 mt-8 sm:w-52 md:w-64 lg:72" loading="lazy" />
           <LearnSection />
           </span>
-          <span className=" w-44  relative -right-3 overflow-hidden  text-white sm:w-48 sm:h-72 md:w-48 md:h-72 lg:w-80">
-            <img src={form} width="300px" height="400px" loading="lazy" />
+          <span className=" w-44   relative -right-3 overflow-hidden  text-white sm:w-72 sm:h-72 md:w-48 md:h-72 lg:w-80">
+            <img src={form} width="350px" height="500px" loading="lazy" />
           </span>
         </div>
 

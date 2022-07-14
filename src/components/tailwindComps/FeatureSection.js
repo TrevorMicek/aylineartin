@@ -31,7 +31,7 @@ export default function Example() {
     <div id="about" className="-mt-24 pb-16 py-12 bg-black" style={{gridColumn:"span 7", gridRowStart:"second", gridRowEnd:"third"}}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="space-x-8 flex justify-center justify-around flex-row lg:text-center">
-        <span className="w-40 text-white sm:w-56 md:w-72 lg:w-80">
+        <span className="w-44 text-white sm:w-72 md:w-92 lg:w-80">
             <img src={portrait} width="300px" height="400px" loading="lazy" />
           </span>
           <span>

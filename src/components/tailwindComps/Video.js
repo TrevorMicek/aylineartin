@@ -37,10 +37,10 @@ export default function Example() {
 return (
   <div className="" style={{gridColumn:"span 7", gridRowStart:"first", gridRowEnd:"second", position: 'relative', zIndex:'12', top: '-3vh', zIndex: '21'}}>
      <div className="mx-auto">
-      <iframe width="350" height="400"
-      loading="lazy"
-src="https://res.cloudinary.com/websites-by-trevor/video/upload/v1657736170/trailer_gef7mv.mp4"
-autoplay="true"
+      <iframe width="350" height="600"
+
+src="https://res.cloudinary.com/websites-by-trevor/video/upload/v1657736170/so_2/trailer_gef7mv.mp4"
+autoplay
 className="mx-auto w-full">
 </iframe>
 </div>
