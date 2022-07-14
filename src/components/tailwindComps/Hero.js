@@ -69,7 +69,7 @@ export default function Example() {
 
 
 
-        <div className=" -mt-6 -mb-10 bg-black mx-auto flex justify-around flex-row">
+        <div className="overflow-hidden -mt-6 -mb-10 bg-black mx-auto flex justify-around flex-row">
             <div className="">
               <img src={available} width="100px" height="100px" className="w-28 mt-8 sm:w-40 md:w-52 lg:w-60" />
               <div className="-mt-4 w-44 flex flew-row space-x-4">
@@ -79,7 +79,7 @@ export default function Example() {
               </div>
             </div>
             <div className="w-44 relative right-14">
-            <iframe src="https://open.spotify.com/embed/album/5oj4ROdwOdmoPyd140nxCa?utm_source=generator" width="225" height="80" frameborder="0" allowtransparency="true" className="mt-12 w-60 sm:-ml-5 sm:w-72 md:w-80 lg:-ml-14 lg:w-96"></iframe>
+            <iframe src="https://open.spotify.com/embed/album/5oj4ROdwOdmoPyd140nxCa?utm_source=generator" width="225" height="80" frameborder="0" allowtransparency="true" className="mt-12 w-60 overflow-hidden sm:-ml-5 sm:w-72 md:w-80 lg:-ml-14 lg:w-96"></iframe>
             </div>
 
           </div>
