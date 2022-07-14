@@ -79,7 +79,7 @@ export default function Example() {
               </div>
             </div>
             <div className="w-44 relative right-14">
-            <iframe src="https://open.spotify.com/embed/album/5oj4ROdwOdmoPyd140nxCa?utm_source=generator" width="225" height="80" frameborder="0" allowtransparency="true" className="mt-12 sm:w-64 md:w-72 lg:w-80"></iframe>
+            <iframe src="https://open.spotify.com/embed/album/5oj4ROdwOdmoPyd140nxCa?utm_source=generator" width="225" height="80" frameborder="0" allowtransparency="true" className="mt-12 w-60 sm:-ml-5 sm:w-72 md:w-80 lg:-ml-14 lg:w-96"></iframe>
             </div>
 
           </div>
