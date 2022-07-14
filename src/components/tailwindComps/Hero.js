@@ -9,7 +9,7 @@ import { Link } from "gatsby"
 
 import BG from '../../images/header2/header.png'
 import available from '../../images/available/available.png'
-import yt from '../../images/pics/PNG/youtube.png'
+import amazon from '../../images/download.jpeg'
 import spotify from '../../images/pics/PNG/spotify.png'
 import apple from '../../images/pics/PNG/applemusic.png'
 
@@ -72,9 +72,9 @@ export default function Example() {
             <div className="">
               <img src={available} width="100px" height="100px" className="w-28 mt-8 sm:w-40 md:w-52 lg:w-60" />
               <div className="-mt-4 w-44 flex flew-row space-x-4">
-                <img src={yt} width="45px" height="50px" />
-                <img src={spotify} width="55px" height="50px" />
-                <img src={apple} width="40px" height="50px" />
+                <img src={amazon} width="35px" height="40px" />
+                <img src={spotify} width="55px" height="40px" />
+                <img src={apple} width="40px" height="40px" className="bg-white" />
               </div>
             </div>
             <div className="w-44 relative right-14">
