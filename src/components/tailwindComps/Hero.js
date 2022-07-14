@@ -72,13 +72,13 @@ export default function Example() {
             <div className="">
               <img src={available} width="100px" height="100px" className="w-28 mt-8 sm:w-40 md:w-52 lg:w-60" />
               <div className="-mt-4 w-44 flex flew-row space-x-4">
-                <img src={amazon} width="50px" height="30px" />
-                <img src={spotify} width="100px" height="40px" />
-                <img src={apple} width="100px" height="40px" className="bg-white" />
+                <a href="https://www.amazon.com/music/player/albums/B0B5ZF67NM?ref=sr_1_1&s=dmusic&keywords=heaven+in+hell+ayline+artin&crid=HA4KADOMN0VJ&sprefix=heaven+in+hell+ayline+artin%2Cdigital-music%2C119&qid=1657776156&sr=1-1"><img src={amazon} width="40px" height="20px" /></a>
+                <a href="https://open.spotify.com/album/5oj4ROdwOdmoPyd140nxCa"><img src={spotify} width="40px" height="20px" /></a>
+                <a href="https://music.apple.com/us/album/heaven-in-hell-single/1633671388"><img src={apple} width="40px" height="20px" className="bg-white" /></a>
               </div>
             </div>
             <div className="w-44 relative right-14">
-            <iframe src="https://open.spotify.com/embed/artist/0HTVSskXDPfVh6urnLsK9J" width="225" height="80" frameborder="0" allowtransparency="true" className="mt-12 sm:w-64 md:w-72 lg:w-80"></iframe>
+            <iframe src="https://open.spotify.com/embed/album/5oj4ROdwOdmoPyd140nxCa?utm_source=generator" width="225" height="80" frameborder="0" allowtransparency="true" className="mt-12 sm:w-64 md:w-72 lg:w-80"></iframe>
             </div>
 
           </div>
