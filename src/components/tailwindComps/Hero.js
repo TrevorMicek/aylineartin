@@ -57,7 +57,7 @@ export default function Example() {
 
       </Popover>
 
-      <main className="lg:relative">
+      <main className="lg:relative pt-20 -mt-20">
 
 
           <img
