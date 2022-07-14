@@ -26,9 +26,10 @@ src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=1">
 */
 export default function Example() {
   const navigation = [
-    { name: 'About Me', href: '/#about' },
+    { name: 'Home', href: '/' },
+    { name: 'About', href: '/#about' },
     { name: 'Music', href: '/#music' },
-    { name: 'Contact Me', href: '/#contact' }
+    { name: 'Contact', href: '/#contact' }
   ]
   return (
     <div className="relative " style={{gridColumn:"span 5", gridRowStart:"header", gridRowEnd:"main"}}>
