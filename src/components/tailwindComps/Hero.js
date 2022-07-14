@@ -72,9 +72,9 @@ export default function Example() {
             <div className="">
               <img src={available} width="100px" height="100px" className="w-28 mt-8 sm:w-40 md:w-52 lg:w-60" />
               <div className="-mt-4 w-44 flex flew-row space-x-4">
-                <img src={amazon} width="35px" height="40px" />
-                <img src={spotify} width="55px" height="40px" />
-                <img src={apple} width="40px" height="40px" className="bg-white" />
+                <img src={amazon} width="50px" height="30px" />
+                <img src={spotify} width="100px" height="40px" />
+                <img src={apple} width="100px" height="40px" className="bg-white" />
               </div>
             </div>
             <div className="w-44 relative right-14">
