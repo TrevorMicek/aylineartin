@@ -68,7 +68,6 @@ export default function Example() {
 
 
 
-
         <div className="overflow-hidden -mt-6 -mb-10 bg-black mx-auto flex justify-around flex-row">
             <div className="">
               <img src={available} width="100px" height="100px" className="w-28 mt-8 sm:w-40 md:w-52 lg:w-60" />
