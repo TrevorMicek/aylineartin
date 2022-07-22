@@ -59,16 +59,16 @@ export default function Example() {
 
       <main className="lg:relative">
 
+      <div className=" relative bg-fixed bg-no-repeat z-0 bg-contain h-72 w-full bg-default">
 
-          <img
-            className="relative z-0 inset-0 w-full h-full object-cover"
-            src={BG}
-            alt="album cover, lady in red dress. Ayline Artin"
-          />
+</div>
 
 
 
-        <div className="overflow-hidden -mt-6 -mb-10 bg-black mx-auto flex justify-around flex-row">
+
+
+
+        <div className="overflow-hidden relative z-10 -mt-1 -mb-10 bg-black mx-auto flex justify-around flex-row">
             <div className="">
               <img src={available} width="100px" height="100px" className="w-28 mt-8 sm:w-40 md:w-52 lg:w-60" />
               <div className="-mt-4 w-44 flex flew-row space-x-4">

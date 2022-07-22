@@ -12,9 +12,7 @@ const IndexPage = () => {
   return (
   <Layout title="Small Business Web Design & Development" pageLayout={{gridTemplateRows: "[top-gutter] auto [top-padding] auto [first] auto [second] auto [third] auto [fourth] auto [fifth] auto [sixth] auto"}}>
     <SEO title="Home" />
-    <Helmet>
-    <meta name="theme-color" content="white" />
-    </Helmet>
+
     <Vid />
     <About />
     <Music />

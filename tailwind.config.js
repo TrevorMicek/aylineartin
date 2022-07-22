@@ -10,7 +10,8 @@ module.exports = {
           'blue': 'rgb(14 165 233)'
     },
     backgroundImage: {
-      'contact': 'url("../images/6_ContactMe/PNG/Background_1.png")'
+      'contact': 'url("../images/6_ContactMe/PNG/Background_1.png")',
+      'default': 'url("../images/header2/header.png")'
   }
     },
   },
