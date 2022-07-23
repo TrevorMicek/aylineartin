@@ -6,6 +6,7 @@ module.exports = {
   },
   plugins: [
 
+
         'gatsby-plugin-postcss',
         {
       resolve: `gatsby-plugin-google-gtag`,

@@ -4,6 +4,9 @@ module.exports = {
   theme: {
 
     extend: {
+      fontFamily: {
+        default: ["'Work Sans', sans-serif"],
+      },
         colors: {
           'default': 'rgb(99 102 241)',
           'bg': 'rgb(10 20 30)',

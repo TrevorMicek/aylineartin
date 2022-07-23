@@ -8,12 +8,12 @@ export default function Example() {
   const LearnSection = () => {
     return (
       <>
-      {learnMore ?  <p className="-mt-12 w-44 text-left text-gray-200 font-serif text-xs font-thin lg:mx-auto sm:text-sm md:text-base sm:w-60 md:w-72">
+      {learnMore ?  <p className="-mt-12 w-44 text-left text-gray-200 text-xs font-thin lg:mx-auto sm:text-sm md:text-base sm:w-60 md:w-72">
       Ayline’s music is far from expected. She brings an exciting vigor to the scene while keeping her roots true to the soulful blues that she grew up listening to and playing on her old upright piano; which she still sits at to write her music. With an emotionally piercing rock ’n roll voice that can effortlessly shift to a sensual ballad, nothing is predictable about her artistry. Her depth of emotion and passion for what she creates burns through each track like a wildfire. It is no surprise the immense talent that surrounds Ayline in her band full of music legends. Percussionist, Oliver C. Brown, original member of KC and the Sunshine Band, Mick Fleetwood and Fleetwood Mac infuses a high energy to her music and on stage. Nils, a renowned producer and her lead guitarist, holds 6 #1 contemporary jazz records. Artin’s drummer, Eric Valentine, has played on more than 20 #1 singles in various genres. Her bassist Derrick Elliot, brings a unique tranquil sound to the songs. The band is rounded out by her keyboardist, Adam Peri, who adds a sensual touch to Ayline’s rock ballads. “Heaven in Hell”, an edgy hard hitting rock hit with an infectious hook, features an intoxicating percussion intro by Oliver C. Brown, and an electrifying guitar (rhythm) that electrifies the track. The song is about the dangers of being in love with one person but being tempted by a chemistry with someone else.
           </p>
       :
       <>
-      <p className="-mt-12 w-44 text-left text-gray-200 font-serif text-xs font-thin lg:mx-auto sm:text-sm md:text-base sm:w-60 md:w-72">
+      <p className="-mt-12 w-44 text-left text-gray-200 text-xs font-thin lg:mx-auto sm:text-sm md:text-base sm:w-60 md:w-72">
       Ayline’s music is far from expected. She brings an exciting vigor to the scene while keeping her roots true to the soulful blues that she grew up listening to and playing on her old upright piano; which she still sits at to write her music. With an emotionally piercing rock ’n roll voice that can effortlessly shift to a sensual ballad, nothing is predictable about her artistry.
       </p>
       <div className="mb-5 flex flex-row justify-between text-sm cursor-pointer text-gray-400 border-b-2 border-solid border-gray-600 w-32 ml-4" onClick={()=>setLearnMore(true)}>Learn More...<svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
