@@ -7,7 +7,7 @@ import portrait from '../../images/newImg/Assets (1)/3_Aboutme/Background.png'
 
 export default function Example() {
 
-  const [learnMore, setLearnMore] = useState(false)
+  const [learnMore, setLearnMore] = useState(true)
   const LearnSection = () => {
     return (
       <>
