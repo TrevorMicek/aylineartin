@@ -3,9 +3,9 @@ import { Switch } from '@headlessui/react'
 import emailjs from 'emailjs-com';
 
 import Confirm from './Confirmation'
-import Contact from '../../images/newImg/Assets (1)/6_Contactme/contact me_1.png'
-import bg from '../../images/newImg/Assets (1)/6_Contactme/background_3.png'
-import submit from '../../images/newImg/Assets (1)/6_Contactme/submit button.png'
+import Contact from '../../images/newImg/Assets/6_Contactme/contact me_1.png'
+import bg from '../../images/newImg/Assets/6_Contactme/background_3.png'
+import submit from '../../images/newImg/Assets/6_Contactme/submit button.png'
 import UseInput from '../../customHooks/useInput'
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')

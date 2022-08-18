@@ -7,12 +7,12 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { ChevronRightIcon } from '@heroicons/react/solid'
 import { Link } from "gatsby"
 
-import BG from '../../images/newImg/Assets (1)/1_Header/Header.png'
-import available from '../../images/newImg/Assets (1)/2_AvailableNow/available now.png'
+import BG from '../../images/newImg/Assets/1_Header/Header.png'
+import available from '../../images/newImg/Assets/2_AvailableNow/available now.png'
 import amazon from '../../images/download.jpeg'
 import spotify from '../../images/pics/PNG/spotify.png'
 import apple from '../../images/pics/PNG/applemusic.png'
-import Logo from '/home/tmicek/Desktop/Code/AylineArtin/src/images/newImg/Assets (1)/1_Header/AylineArtin.png'
+import Logo from '/home/tmicek/Desktop/Code/AylineArtin/src/images/newImg/Assets/1_Header/AylineArtin.png'
 
 
 

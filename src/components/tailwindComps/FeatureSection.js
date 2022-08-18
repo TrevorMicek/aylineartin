@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 
 
-import about from '../../images/newImg/Assets (1)/3_Aboutme/Aboutme.png'
-import portrait from '../../images/newImg/Assets (1)/3_Aboutme/Background.png'
+import about from '../../images/newImg/Assets/3_Aboutme/Aboutme.png'
+import portrait from '../../images/newImg/Assets/3_Aboutme/Background.png'
 
 
 export default function Example() {

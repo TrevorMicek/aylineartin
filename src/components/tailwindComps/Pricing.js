@@ -2,8 +2,8 @@
 import React, {useState} from 'react'
 
 import form from '../../images/4_Music/Form.png'
-import music from '../../images/newImg/Assets (1)/4_Music/Music_2.png'
-import portrait from '../../images/newImg/Assets (1)/4_Music/background_2.png'
+import music from '../../images/newImg/Assets/4_Music/Music_2.png'
+import portrait from '../../images/newImg/Assets/4_Music/background_2.png'
 
 export default function Example() {
   const [learnMore, setLearnMore] = useState(true)
