@@ -12,7 +12,7 @@ import available from '../../images/newImg/Assets/2_AvailableNow/available now.p
 import amazon from '../../images/download.jpeg'
 import spotify from '../../images/pics/PNG/spotify.png'
 import apple from '../../images/pics/PNG/applemusic.png'
-import Logo from '/home/tmicek/Desktop/Code/AylineArtin/src/images/newImg/Assets/1_Header/AylineArtin.png'
+import Logo from '/../../images/newImg/Assets/1_Header/AylineArtin.png'
 
 
 
