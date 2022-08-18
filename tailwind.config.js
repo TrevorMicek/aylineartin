@@ -18,8 +18,8 @@ module.exports = {
       'xxs': '10px'
     },
     backgroundImage: {
-      'contact': 'url("../images/6_ContactMe/PNG/Background_1.png")',
-      'default': 'url("../images/header2/header.png")',
+
+
       'about': 'url("../images/newImg/Assets/3_Aboutme/Background.png")'
   }
     },

@@ -1,7 +1,8 @@
 import React, { useEffect } from "react"
-import {Helmet} from "react-helmet"
+
 import Layout from "../components/layout/layout"
 import SEO from "../components/layout/seo"
+
 import About from '../components/tailwindComps/FeatureSection'
 import Music from '../components/tailwindComps/Pricing'
 import PerformedAt from '../components/tailwindComps/Perform'
