@@ -1,6 +1,11 @@
 import React, {useState, useEffect} from 'react'
 import Ticker from 'react-ticker'
 
+import apple from '../../images/newImg/Assets/2_AvailableNow/applem.png'
+import spotify from '../../images/newImg/Assets/2_AvailableNow/spotify.png'
+import yt from '../../images/newImg/Assets/2_AvailableNow/youtube.png'
+
+
 const CityScroll = () => {
   const [tickerSpeed, setTickerSpeed] = useState(1000);
 
@@ -51,8 +56,11 @@ className="mx-auto w-72">
 
 
 </div>
-<div className="bg-purple -mt-5 h-12 my-auto flex items-center align-end justify-between">
+<div className="bg-purple -mt-5 h-8 my-auto flex space-x-3 items-center  justify-center">
 
+<a href="https://www.amazon.com/music/player/albums/B0B5ZF67NM?ref=sr_1_1&s=dmusic&keywords=heaven+in+hell+ayline+artin&crid=HA4KADOMN0VJ&sprefix=heaven+in+hell+ayline+artin%2Cdigital-music%2C119&qid=1657776156&sr=1-1"><img src={yt} width="40px" height="20px" className="my-auto w-9 sm:w-14 md:w-20" /></a>
+                <a href="https://open.spotify.com/album/5oj4ROdwOdmoPyd140nxCa"><img src={spotify} width="40px" height="20px" className="my-auto w-12 sm:w-14 md:w-20" /></a>
+                <a href="https://music.apple.com/us/album/heaven-in-hell-single/1633671388"><img src={apple} width="40px" height="20px" className="my-auto w-12 sm:w-14 md:w-20" /></a>
 
             </div>
     </div>
