@@ -82,7 +82,7 @@ export default function Example() {
 
 
 
-        <div className="overflow-hidden relative z-10 -mt-6 pt-3 -mb-28 h-40 bg-black mx-auto flex justify-around flex-row">
+        <div className="overflow-hidden relative z-10 -mt-7 pt-3 -mb-28 h-40 bg-black mx-auto flex justify-around flex-row">
 
               <img src={available} width="400px" height="200px" className="h-20 sm:w-72 md:w-52 lg:w-60" />
 

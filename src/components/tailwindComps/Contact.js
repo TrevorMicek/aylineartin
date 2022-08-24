@@ -158,7 +158,7 @@ const navigation = {
   ],
 }
   return (
-    <div className=" overflow-hidden sm:px-6 " style={{gridColumn:"span 7", gridRowStart:"fifth", gridRowEnd:"sixth", zIndex:"22"}}>
+    <div className=" overflow-hidden -mt-2 -mb-2 sm:px-6 " style={{gridColumn:"span 7", gridRowStart:"fifth", gridRowEnd:"sixth", zIndex:"22"}}>
       <img src={bg} width="200px" height="100px" className="z-0 p-0 m-0 bg-no-repeat  h-80 absolute left-0  w-full" />
       <div className="-mb-1 mt-10 px-4 relative max-w-xl mx-auto" >
 
