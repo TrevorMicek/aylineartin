@@ -12,7 +12,8 @@ module.exports = {
           'bg': 'rgb(10 20 30)',
           'blue': 'rgb(14 165 233)',
           'purple': 'rgba(130,103,165,255)',
-          'dark': 'rgba(19,7,30,255)'
+          'dark': 'rgba(19,7,30,255)',
+          'insta': 'rgba(222,214,242,255)'
     },
     fontSize: {
       'xxs': '10px'
