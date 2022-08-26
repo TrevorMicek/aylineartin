@@ -11,7 +11,7 @@ export default function Example() {
   const LearnSection = () => {
     return (
       <>
-      {learnMore ?  <p className="relative z-10 mx-auto mt-5 w-10/12 text-left text-gray-50 text-xs font-thin lg:mx-auto md:text-base sm:w-60 md:w-72">
+      {learnMore ?  <p className="relative z-10 mx-auto mt-5 w-10/12 text-left text-gray-50 text-xs font-thin lg:mx-auto md:text-base ">
           Ayline (eye-lean) meaning “the one that belongs to the moon”, captivates with her bluesy, rock ’n soul infused vibe. Her music will draw you in and steal your heart. Ayline’s connection to the music and lyrics she writes is undeniable, and honors her journey as a woman and an artist. <br /><br /> She has performed at iconic venues including The Dolby, The Saban and The Rose Theater, and has been fortunate to grace the stage at Palm Springs Pride Festival and Hermosa Beach Pride Festival. Ayline is equally passionate about spreading love and bringing awareness to the Armenian Genocide by performing at the El Rey Theater, Alex Theater, and the Beverly Hilton. <br /><br />Ayline’s driving force behind the music she writes, records and performs is LOVE. Spreading the message of love, faith and gratitude is what makes Ayline’s music so special. It can be felt in every note and lyric she sings.  Her soulful storytelling will pull at your heartstrings and leave you wanting more.
           </p>
       :

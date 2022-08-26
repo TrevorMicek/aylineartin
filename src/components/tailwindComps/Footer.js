@@ -19,28 +19,28 @@ const navigation = {
     social: [
       {
         name: 'Spotify',
-        href: '#',
+        href: 'https://open.spotify.com/album/5oj4ROdwOdmoPyd140nxCa',
         icon: (props) => (
           <img src={spotify} width="25px" height="25px" />
         ),
       },
       {
         name: 'Instagram',
-        href: '#',
+        href: 'https://www.instagram.com/aylineartin/?hl=en',
         icon: (props) => (
           <img src={insta} width="25px" height="25px" />
         ),
       },
       {
         name: 'Youtube',
-        href: '#',
+        href: 'https://www.youtube.com/watch?v=ueWI3I8Nx4Y',
         icon: (props) => (
           <img src={yt} width="25px" height="25px" />
         ),
       },
       {
         name: 'Facebook',
-        href: '#',
+        href: 'https://www.facebook.com/AylineArtin/',
         icon: (props) => (
           <img src={fb} width="25px" height="25px" />
         ),

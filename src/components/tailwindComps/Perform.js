@@ -35,7 +35,7 @@ const CityScroll = () => {
 export default function Example() {
 
 return (
-  <div className="-mt-16" style={{gridColumn:"span 7", gridRowStart:"fourth", gridRowEnd:"fifth", position: 'relative', zIndex:'12', top: '-3vh', zIndex: '21'}}>
+  <div id="perform" className="-mt-16" style={{gridColumn:"span 7", gridRowStart:"fourth", gridRowEnd:"fifth", position: 'relative', zIndex:'12', top: '-3vh', zIndex: '21'}}>
       <img src={background} width="400px" height="200px" className="bg-dark w-screen h-36 absolute" loading="lazy" />
     <div className=" font-default h-24 -mb-1 py-0 ">
     <div className="max-w-7xl mx-auto text-center pt-3   ">
