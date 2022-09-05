@@ -11,7 +11,7 @@ export default function Example() {
     return (
       <>
 
-      <p className="-mt-7 w-full relative z-10 text-left text-gray-50 text-sm font-thin sm:text-base">
+      <p className="-mt-7 w-full min-w-64 relative z-10 text-left text-gray-50 text-sm font-thin ">
       Ayline’s music is far from expected. She brings an exciting vigor to the scene while keeping her roots true to the soulful blues that she grew up listening to and playing on her old upright piano; which she still sits at to write her music. With an emotionally piercing rock ’n roll voice that can effortlessly shift to a sensual ballad, nothing is predictable about her artistry.
       </p>
       <Link to="/about">
@@ -23,8 +23,8 @@ export default function Example() {
     )
   }
   return (
-    <div id="music" className="bg-black max-h-96 mb-10 -mt-16  py-12 h-screen bg-black sm:max-h-96" style={{gridColumn:"span 7", gridRowStart:"third", gridRowEnd:"fourth", zIndex:"22"}}>
-      <span className="absolute z-0 text-white ">
+    <div id="music" className="relative overflow-hidden max-h-96 pb-0  h-screen bg-black sm:max-h-96" style={{gridColumn:"span 7", gridRowStart:"third", gridRowEnd:"fourth", zIndex:"22", marginBottom: "2.35rem"}}>
+      <span className="absolute h-full max-h-72 z-0 text-white ">
 
             <img
               className="relative object-cover h-96  border-2"
@@ -41,7 +41,7 @@ export default function Example() {
 
           <span className='w-full flex justify-start'>
 
-          <img src={music} width="100px" height="100px" className="relative  mr-0 z-10 w-36 mt-6 sm:w-52  lg:72" loading="lazy" />
+          <img src={music} width="100px" height="100px" className="relative  mr-0 z-10 w-36 mt-6 sm:w-40  lg:72" loading="lazy" />
 
           </span>
           <LearnSection />

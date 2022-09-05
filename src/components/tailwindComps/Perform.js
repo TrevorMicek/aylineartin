@@ -35,10 +35,10 @@ const CityScroll = () => {
 export default function Example() {
 
 return (
-  <div className="" style={{gridColumn:"span 7", gridRowStart:"fourth", gridRowEnd:"fifth", position: 'relative', zIndex:'12', top: '-3vh', zIndex: '21'}}>
+  <div className="relative z-0 -mt-10 -mb-1" style={{gridColumn:"span 7", gridRowStart:"fourth", gridRowEnd:"fifth", position: 'relative', zIndex:'12', top: '0vh', zIndex: '21'}}>
 
-      <img src={background} width="400px" height="200px" className="  h-36 absolute z-20 left-0" loading="lazy" />
-    <div className="font-default h-24 -mb-1 py-0 ">
+      <img src={background} width="400px" height="200px" className="w-screen  h-36 absolute z-20 left-0" loading="lazy" />
+    <div className="font-default h-36 -mb-1 py-0 ">
     <div className="max-w-7xl mx-auto text-center pt-3   ">
     <div className="relative z-20 top-2">
           <h2 className="text-center mb-0 -mt-4 text-white text-xs leading-8 tracking-tight ">

@@ -12,7 +12,7 @@ export default function Example() {
     return (
       <div className='relative'>
 
-      <p className="-mt-5 w-full relative z-10 text-left text-gray-50 text-sm font-thin sm:text-base">
+      <p className="-mt-5 w-full relative z-10 text-left text-gray-50 text-sm font-thin ">
       Ayline (eye-lean) meaning “the one that belongs to the moon”, captivates with her bluesy, rock ’n soul infused vibe. Her music will draw you in and steal your heart. Ayline’s connection to the music and lyrics she writes is undeniable, and honors her journey as a woman and an artist.
       </p>
       <Link to="/about">
@@ -24,7 +24,7 @@ export default function Example() {
     )
   }
   return (
-    <div id="about" className="relative overflow-hidden max-h-96 pb-0 -mt-24 pt-12 h-screen bg-black sm:max-h-96" style={{gridColumn:"span 7", gridRowStart:"second", gridRowEnd:"third"}}>
+    <div id="about" className="relative overflow-hidden max-h-96 pb-0  h-screen bg-black sm:max-h-96" style={{gridColumn:"span 7", gridRowStart:"second", gridRowEnd:"third"}}>
       <span className="absolute overflow-hidden -mr-24 z-0 text-white ">
 
             <img

@@ -47,9 +47,9 @@ export default function Example() {
           >
             <div className="flex items-center flex-1">
 
-              <div className="space-x-5 -mt-1 mr-2  whitespace-nowrap md:flex md:absolute md:right-10">
+              <div className="space-x-4 -mt-1 mr-2  whitespace-nowrap md:flex md:absolute md:right-10">
                 {navigation.map((item) => (
-                  <Link to={item.href} key={item.name} className="  text-black hover:text-red-700" style={{fontSize: "9px"}}>
+                  <Link to={item.href} key={item.name} className="  text-black hover:text-red-700" style={{fontSize: "10px"}}>
                     {item.name}
                   </Link>
                 ))}
@@ -62,7 +62,7 @@ export default function Example() {
 
       </Popover>
 
-      <main className="lg:relative">
+      <main className="lg:relative bg-black">
 
 
         <img
@@ -75,17 +75,17 @@ export default function Example() {
 
 
 
-        <div className="overflow-hidden -ml-4 -mt-6 -mb-12 bg-black mx-auto flex justify-around flex-row items-end">
-            <div className="">
-              <img src={available} width="100px" height="100px" className="w-28 ml-3 mt-8 sm:w-40 md:w-52 lg:w-60" />
-              <div className="bg-purple -mt-6 h-8 my-auto flex space-x-3 items-center  justify-center">
+        <div className="overflow-hidden   bg-black mx-auto flex justify-around flex-row items-end">
+
+              <img src={available} width="100px" height="100px" className="w-28 ml-3 sm:w-40 md:w-52 lg:w-60" />
+              <div className="bg-purple relative -left-6 h-8 my-auto flex space-x-3 items-end  justify-center">
 
 <a href="https://www.amazon.com/music/player/albums/B0B5ZF67NM?ref=sr_1_1&s=dmusic&keywords=heaven+in+hell+ayline+artin&crid=HA4KADOMN0VJ&sprefix=heaven+in+hell+ayline+artin%2Cdigital-music%2C119&qid=1657776156&sr=1-1"><img src={yt} width="40px" height="20px" className="my-auto w-9 sm:w-14 md:w-20" /></a>
                 <a href="https://open.spotify.com/album/5oj4ROdwOdmoPyd140nxCa"><img src={spotify} width="40px" height="20px" className="my-auto w-12 sm:w-14 md:w-20" /></a>
                 <a href="https://music.apple.com/us/album/heaven-in-hell-single/1633671388"><img src={apple} width="40px" height="20px" className="my-auto bg-white w-12 sm:w-14 md:w-20" /></a>
 
             </div>
-            </div>
+
 
                     <div className='w-42'></div>
           </div>
