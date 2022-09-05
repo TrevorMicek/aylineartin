@@ -52,7 +52,7 @@ const Layout = ({children, title, text, pageLayout}) => {
 
 
         <main style={pageLayout}  class="main">{children}</main>
-        <Footer />
+
        </div>
       </div>
 

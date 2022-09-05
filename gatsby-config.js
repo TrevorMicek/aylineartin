@@ -28,7 +28,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    'gatsby-plugin-netlify',
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -40,7 +39,7 @@ module.exports = {
         background_color: `#000000`,
         theme_color: `#000000`,
         display: `minimal-ui`,
-        icon: `src/images/newImg/Assets/1_Header/AylineArtin.png`, // This path is relative to the root of the site.
+        icon: `src/images/header2/header.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

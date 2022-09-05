@@ -11,17 +11,11 @@ module.exports = {
           'default': 'rgb(99 102 241)',
           'bg': 'rgb(10 20 30)',
           'blue': 'rgb(14 165 233)',
-          'purple': 'rgba(130,103,165,255)',
-          'dark': 'rgba(19,7,30,255)',
-          'insta': 'rgba(222,214,242,255)'
-    },
-    fontSize: {
-      'xxs': '10px'
+          'gold': 'rgba(182,149,65,255)'
     },
     backgroundImage: {
-
-
-      'about': 'url("../images/newImg/Assets/3_Aboutme/Background.png")'
+      'contact': 'url("../images/6_ContactMe/PNG/Background_1.png")',
+      'default': 'url("../images/header2/header.png")'
   }
     },
   },

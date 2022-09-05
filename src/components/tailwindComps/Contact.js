@@ -3,9 +3,9 @@ import { Switch } from '@headlessui/react'
 import emailjs from 'emailjs-com';
 
 import Confirm from './Confirmation'
-import Contact from '../../images/newImg/Assets/6_Contactme/contact me_1.png'
-import bg from '../../images/newImg/Assets/6_Contactme/background_3.png'
-import submit from '../../images/newImg/Assets/6_Contactme/submit button.png'
+import Contact from '../../images/6_ContactMe/PNG/contact.png'
+import bg from '../../images/6_ContactMe/PNG/Background_1.png'
+import submit from '../../images/6_ContactMe/PNG/button.png'
 import UseInput from '../../customHooks/useInput'
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -19,17 +19,6 @@ export default function Example() {
     return UseInput(inputs[i])
   }
 }
-
-/*
-<div className="absolute flex flex-row items-end space-x-3">
-        {navigation.social.map((item) => (
-              <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
-                <span className="sr-only">{item.name}</span>
-                <item.icon className="h-6 w-6" aria-hidden="true" />
-              </a>
-            ))}
-            </div>
-*/
 const InputComp = UseInputComp().comp
 const submitForm =  UseInputComp().submit
 
@@ -158,18 +147,25 @@ const navigation = {
   ],
 }
   return (
-    <div className=" overflow-hidden -mt-2  sm:px-6 " style={{gridColumn:"span 7", gridRowStart:"fifth", gridRowEnd:"sixth", zIndex:"22"}}>
-      <img src={bg} width="200px" height="100px" className="z-0 p-0 m-0 bg-no-repeat  h-80 absolute left-0  w-full" />
-      <div className="-mb-1 mt-10 px-4 relative max-w-xl mx-auto" >
+    <div className=" overflow-hidden sm:px-6 " style={{gridColumn:"span 7", gridRowStart:"fifth", gridRowEnd:"sixth", zIndex:"22"}}>
+      <img src={bg} width="200px" height="100px" className=" bg-contact p-0 m-0 bg-no-repeat  h-72 absolute left-0  w-full" />
+      <div className="px-4 relative max-w-xl mx-auto" >
 
         <div className="text-center pt-16">
           <h2 className="mx-auto">
-            <img src={Contact} width="150px" height="100px" className="mx-auto mr-0 w-52 -mt-16" loading="lazy" />
+            <img src={Contact} width="150px" height="100px" className="mx-auto -mt-16" loading="lazy" />
           </h2>
 
         </div>
-
-        <div className="flex justify-end relative -left-7 -mt-10 h-52">
+        <div className="absolute flex flex-row space-x-3">
+        {navigation.social.map((item) => (
+              <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
+                <span className="sr-only">{item.name}</span>
+                <item.icon className="h-6 w-6" aria-hidden="true" />
+              </a>
+            ))}
+            </div>
+        <div className="-mt-10 h-52">
         {confirm ? <Confirm prompt="false" message={confirmMessage} confirm={() =>setConfirm(false)} /> : null}
           <form ref={form} onSubmit={onSubmit} id="contact" className="sm:grid-cols-2 sm:gap-x-8">
             <div className="sm:col-span-2">
@@ -188,7 +184,7 @@ const navigation = {
                   onChange={handleChange}
                   key='name'
                   placeholder="name"
-                  className="py-0 px-4 mx-auto mb-4 block text-gray-400 bg-transparent w-44 shadow-sm  border-0 border-b-2 border-grey-300"
+                  className="py-0 px-4 mx-auto mb-4 block text-gray-400 bg-black w-44 shadow-sm  border-0 border-b-2 border-grey-300"
                 />
               </div>
             </div>
@@ -207,7 +203,7 @@ const navigation = {
                   onChange={handleChange}
                   key='name'
                   placeholder="email address"
-                  className="py-0 px-4 mx-auto mb-4 block text-gray-400 bg-transparent w-44 shadow-sm border-0 border-b-2 border-grey-300 "
+                  className="py-0 px-4 mx-auto mb-4 block text-gray-400 bg-black w-44 shadow-sm border-0 border-b-2 border-grey-300 "
                 />
               </div>
             </div>
@@ -226,7 +222,7 @@ const navigation = {
                   onChange={handleChange}
                   key='name'
                   placeholder="message"
-                  className="py-0 px-4 mx-auto text-gray-400 mb-4 block resize-none bg-transparent w-44 shadow-sm  border-0 border-b-2 border-grey-300"
+                  className="py-0 px-4 mx-auto text-gray-400 mb-4 block resize-none bg-black w-44 shadow-sm  border-0 border-b-2 border-grey-300"
 
                 />
 
@@ -236,9 +232,9 @@ const navigation = {
             <div className="sm:col-span-2">
               <button
                 type="submit"
-                className=" relative lrft-0 block -mt-2"
+                className=" mx-auto block -mt-2"
               >
-                <img src={submit} width="100px" height="50px" />
+                <img src={submit} width="200px" height="50px" />
               </button>
             </div>
           </form>

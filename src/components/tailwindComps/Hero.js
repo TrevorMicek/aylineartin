@@ -7,10 +7,12 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { ChevronRightIcon } from '@heroicons/react/solid'
 import { Link } from "gatsby"
 
-import BG from '../../images/newImg/Assets/1_Header/Header.png'
-import available from '../../images/newImg/Assets/2_AvailableNow/available now.png'
+import BG from '../../images/header2/header.png'
+import available from '../../images/available/available.png'
+import yt from '../../images/pics/PNG/youtube.png'
+import spotify from '../../images/pics/PNG/spotify.png'
+import apple from '../../images/pics/PNG/applemusic.png'
 
-import Logo from '../../images/newImg/Assets/1_Header/AylineArtin.png'
 
 
 
@@ -24,39 +26,25 @@ src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=1">
 */
 export default function Example() {
   const navigation = [
-    { name: 'About me', href: '/#about' },
+    { name: 'Home', href: '/' },
+    { name: 'About', href: '/#about' },
     { name: 'Music', href: '/#music' },
-    { name: 'Performed at', href: '/#perform' },
     { name: 'Contact', href: '/#contact' }
   ]
   return (
     <div className="relative " style={{gridColumn:"span 5", gridRowStart:"header", gridRowEnd:"main"}}>
 
-
-
-          <div className="bg-black">
+<Popover as="header" className="z-10 absolute -top-2 right-0 border-solid ">
+        <div className="bg-transparent pt-6">
           <nav
-            className=" mx-auto flex items-center text-right justify-around px-4 sm:px-6"
+            className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
             aria-label="Global"
           >
-            <div className="flex items-center justify-between flex-1">
-              <div className=" h-16 w-auto flex items-center justify-between md:w-auto">
-                <a href="/">
-                  <span className="sr-only">Workflow</span>
-                  <img
-                    className="h-9 w-auto mt-4"
-                    src={Logo}
-                    alt="coding logo"
-                    width="200px"
-                    height="200px"
-                  />
-                </a>
+            <div className="flex items-center flex-1">
 
-              </div>
-              <div className="py-3 text-right space-x-3 flex flex-between md:flex md:absolute md:right-10">
-
+              <div className="space-x-5 -mt-1 mr-2  whitespace-nowrap md:flex md:absolute md:right-10">
                 {navigation.map((item) => (
-                  <Link to={item.href} key={item.name} className=" text-xs text-white hover:text-red-700">
+                  <Link to={item.href} key={item.name} className="  text-black hover:text-red-700" style={{fontSize: "9px"}}>
                     {item.name}
                   </Link>
                 ))}
@@ -67,7 +55,7 @@ export default function Example() {
         </div>
 
 
-
+      </Popover>
 
       <main className="lg:relative">
 
@@ -82,12 +70,20 @@ export default function Example() {
 
 
 
-        <div className="overflow-hidden relative z-10 -mt-7 pt-3 -mb-28 h-40 bg-black mx-auto flex justify-around flex-row">
+        <div className="overflow-hidden -ml-4 -mt-6 -mb-10 bg-black mx-auto flex justify-around flex-row items-end">
+            <div className="">
+              <img src={available} width="100px" height="100px" className="w-28 ml-3 mt-8 sm:w-40 md:w-52 lg:w-60" />
+              <div className="bg-purple -mt-6 h-8 my-auto flex space-x-3 items-center  justify-center">
 
-              <img src={available} width="400px" height="200px" className="h-20 sm:w-72 md:w-52 lg:w-60" />
+<a href="https://www.amazon.com/music/player/albums/B0B5ZF67NM?ref=sr_1_1&s=dmusic&keywords=heaven+in+hell+ayline+artin&crid=HA4KADOMN0VJ&sprefix=heaven+in+hell+ayline+artin%2Cdigital-music%2C119&qid=1657776156&sr=1-1"><img src={yt} width="40px" height="20px" className="my-auto w-9 sm:w-14 md:w-20" /></a>
+                <a href="https://open.spotify.com/album/5oj4ROdwOdmoPyd140nxCa"><img src={spotify} width="40px" height="20px" className="my-auto w-12 sm:w-14 md:w-20" /></a>
+                <a href="https://music.apple.com/us/album/heaven-in-hell-single/1633671388"><img src={apple} width="40px" height="20px" className="my-auto bg-white w-12 sm:w-14 md:w-20" /></a>
 
-
-
+            </div>
+            </div>
+            <div className="w-36 relative right-12 xxs:right-18">
+            <iframe src="https://open.spotify.com/embed/album/5oj4ROdwOdmoPyd140nxCa?utm_source=generator" width="225" height="160" frameborder="0" allowtransparency="true" className="-mb-7 w-60 overflow-hidden sm:-ml-5 sm:w-72 md:w-80 lg:-ml-14 lg:w-96"></iframe>
+            </div>
 
           </div>
       </main>
