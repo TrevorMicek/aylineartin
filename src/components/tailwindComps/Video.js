@@ -37,7 +37,7 @@ export default function Example() {
 return (
   <div className="" style={{gridColumn:"span 7", gridRowStart:"first", gridRowEnd:"second", position: 'relative', zIndex:'12', top: '-3vh', zIndex: '21'}}>
      <div className="mx-auto pt-6 bg-black">
-      <iframe width="350" height="400"
+      <iframe width="350" height="300"
         src="https://www.youtube.com/embed/ueWI3I8Nx4Y?&autoplay=1&mute=1"
         autoplay title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 className="mx-auto w-full">

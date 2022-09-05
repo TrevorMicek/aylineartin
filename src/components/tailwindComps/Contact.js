@@ -157,14 +157,7 @@ const navigation = {
           </h2>
 
         </div>
-        <div className="absolute flex flex-row space-x-3">
-        {navigation.social.map((item) => (
-              <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
-                <span className="sr-only">{item.name}</span>
-                <item.icon className="h-6 w-6" aria-hidden="true" />
-              </a>
-            ))}
-            </div>
+
         <div className="-mt-10 h-52">
         {confirm ? <Confirm prompt="false" message={confirmMessage} confirm={() =>setConfirm(false)} /> : null}
           <form ref={form} onSubmit={onSubmit} id="contact" className="sm:grid-cols-2 sm:gap-x-8">

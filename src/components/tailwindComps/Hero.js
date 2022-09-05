@@ -23,7 +23,12 @@ function classNames(...classes) {
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=1">
 </iframe>
+
+ <div className="w-36 relative right-12 xxs:right-18">
+            <iframe src="https://open.spotify.com/embed/album/5oj4ROdwOdmoPyd140nxCa?utm_source=generator" width="225" height="160" frameborder="0" allowtransparency="true" className="-mb-7 w-60 overflow-hidden sm:-ml-5 sm:w-72 md:w-80 lg:-ml-14 lg:w-96"></iframe>
+            </div>
 */
+
 export default function Example() {
   const navigation = [
     { name: 'Home', href: '/' },
@@ -70,7 +75,7 @@ export default function Example() {
 
 
 
-        <div className="overflow-hidden -ml-4 -mt-6 -mb-10 bg-black mx-auto flex justify-around flex-row items-end">
+        <div className="overflow-hidden -ml-4 -mt-6 -mb-12 bg-black mx-auto flex justify-around flex-row items-end">
             <div className="">
               <img src={available} width="100px" height="100px" className="w-28 ml-3 mt-8 sm:w-40 md:w-52 lg:w-60" />
               <div className="bg-purple -mt-6 h-8 my-auto flex space-x-3 items-center  justify-center">
@@ -81,10 +86,8 @@ export default function Example() {
 
             </div>
             </div>
-            <div className="w-36 relative right-12 xxs:right-18">
-            <iframe src="https://open.spotify.com/embed/album/5oj4ROdwOdmoPyd140nxCa?utm_source=generator" width="225" height="160" frameborder="0" allowtransparency="true" className="-mb-7 w-60 overflow-hidden sm:-ml-5 sm:w-72 md:w-80 lg:-ml-14 lg:w-96"></iframe>
-            </div>
 
+                    <div className='w-42'></div>
           </div>
       </main>
     </div>

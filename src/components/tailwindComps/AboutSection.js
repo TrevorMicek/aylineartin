@@ -16,7 +16,7 @@ export default function Example() {
       Ayline (eye-lean) meaning “the one that belongs to the moon”, captivates with her bluesy, rock ’n soul infused vibe. Her music will draw you in and steal your heart. Ayline’s connection to the music and lyrics she writes is undeniable, and honors her journey as a woman and an artist.
       </p>
       <Link to="/about">
-      <div className="absolute top-36 mt-4 right-10  z-10 flex flex-row justify-between text-sm cursor-pointer text-gray-400 border-b-2 border-solid border-gray-600 w-32 ml-4 xs:top-24" >Learn More...</div>
+      <div className="absolute -bottom-2 mt-5 right-10  z-20 flex flex-row justify-between text-sm cursor-pointer text-gray-400 border-b-2 border-solid border-gray-600 w-32 ml-4 xs:top-24" >Learn More...</div>
                 </Link>
 
 
@@ -24,18 +24,19 @@ export default function Example() {
     )
   }
   return (
-    <div id="about" className=" max-h-96 mb-6 -mt-24 pb-16 py-12 h-screen bg-black sm:max-h-96" style={{gridColumn:"span 7", gridRowStart:"second", gridRowEnd:"third"}}>
-      <span className="absolute z-0  text-white ">
-      <figure>
+    <div id="about" className="relative overflow-hidden max-h-96 pb-0 -mt-24 pt-12 h-screen bg-black sm:max-h-96" style={{gridColumn:"span 7", gridRowStart:"second", gridRowEnd:"third"}}>
+      <span className="absolute overflow-hidden -mr-24 z-0 text-white ">
+
             <img
-              className="w-full h border-2"
+              className="relative overflow-hidden object-cover h-72 border-2"
+
               src={portrait}
               alt=""
               width={1310}
               height={873}
             />
 
-          </figure>
+
           </span>
       <div className="max-w-7xl mx-auto px-4 ">
         <div className="  px-6 flex flex-col lg:text-center">

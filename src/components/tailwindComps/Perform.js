@@ -36,7 +36,8 @@ export default function Example() {
 
 return (
   <div className="" style={{gridColumn:"span 7", gridRowStart:"fourth", gridRowEnd:"fifth", position: 'relative', zIndex:'12', top: '-3vh', zIndex: '21'}}>
-      <img src={background} width="400px" height="200px" className=" w-full h-36 absolute z-10 left-0" loading="lazy" />
+
+      <img src={background} width="400px" height="200px" className="  h-36 absolute z-20 left-0" loading="lazy" />
     <div className="font-default h-24 -mb-1 py-0 ">
     <div className="max-w-7xl mx-auto text-center pt-3   ">
     <div className="relative z-20 top-2">
