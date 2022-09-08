@@ -7,7 +7,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { ChevronRightIcon } from '@heroicons/react/solid'
 import { Link } from "gatsby"
 
-import BG from '../../images/header2/header.png'
+import BG from '../../images/header2/darkHeader.jpg'
 import available from '../../images/available/available.png'
 import yt from '../../images/pics/PNG/youtube.png'
 import spotify from '../../images/pics/PNG/spotify.png'
@@ -49,7 +49,7 @@ export default function Example() {
 
               <div className="space-x-4 -mt-1 mr-2  whitespace-nowrap md:flex md:absolute md:right-10">
                 {navigation.map((item) => (
-                  <Link to={item.href} key={item.name} className="  text-black hover:text-red-700" style={{fontSize: "10px"}}>
+                  <Link to={item.href} key={item.name} className="  text-white hover:text-red-700" style={{fontSize: "10px"}}>
                     {item.name}
                   </Link>
                 ))}

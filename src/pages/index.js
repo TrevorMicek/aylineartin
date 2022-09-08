@@ -7,6 +7,7 @@ import Music from '../components/tailwindComps/Music'
 import PerformedAt from '../components/tailwindComps/Perform'
 import Contact from '../components/tailwindComps/Contact'
 import Vid from '../components/tailwindComps/Video'
+import Interview from '../components/tailwindComps/Interview'
 const IndexPage = () => {
 
   return (
@@ -16,6 +17,7 @@ const IndexPage = () => {
     <Vid />
     <About />
     <Music />
+    <Interview />
     <PerformedAt />
     <Contact  />
   </Layout>
