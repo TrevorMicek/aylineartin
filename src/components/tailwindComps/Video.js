@@ -1,6 +1,10 @@
 import React, {useState, useEffect} from 'react'
 import Ticker from 'react-ticker'
 
+import yt from '../../images/pics/PNG/youtube.png'
+import spotify from '../../images/pics/PNG/spotify.png'
+import apple from '../../images/pics/PNG/applemusic.png'
+
 import background from '../../images/5_PerformedAt/PNG/Background.png'
 import performed from '../../images/5_Performed/PNG/Performed.png'
 const CityScroll = () => {
@@ -43,6 +47,13 @@ return (
 className="mx-auto w-full">
 </iframe>
 </div>
+<div className="bg-gold w-full relative  h-8 my-auto flex space-x-3 items-center  justify-center">
+
+<a href="https://www.youtube.com/channel/UCaiYtF8uwCq7c46N4_Sajbg"><img src={yt} width="40px" height="20px" className="my-auto w-9 sm:w-14 md:w-20" /></a>
+                <a href="https://open.spotify.com/album/5oj4ROdwOdmoPyd140nxCa"><img src={spotify} width="40px" height="20px" className="my-auto w-12 sm:w-14 md:w-20" /></a>
+                <a href="https://music.apple.com/us/album/heaven-in-hell-single/1633671388"><img src={apple} width="40px" height="20px" className="my-auto w-12 sm:w-14 md:w-20" /></a>
+
+            </div>
     </div>
 )
 }

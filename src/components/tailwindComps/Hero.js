@@ -9,10 +9,7 @@ import { Link } from "gatsby"
 
 import BG from '../../images/header2/darkHeader.jpg'
 import available from '../../images/available/available.png'
-import yt from '../../images/pics/PNG/youtube.png'
-import spotify from '../../images/pics/PNG/spotify.png'
-import apple from '../../images/pics/PNG/applemusic.png'
-
+import cd from '../../images/header2/header.png'
 
 
 
@@ -38,6 +35,8 @@ export default function Example() {
   ]
   return (
     <div className="relative " style={{gridColumn:"span 5", gridRowStart:"header", gridRowEnd:"main"}}>
+
+
 
 <Popover as="header" className="z-10 absolute -top-2 right-0 border-solid ">
         <div className="bg-transparent pt-6">
@@ -75,19 +74,13 @@ export default function Example() {
 
 
 
-        <div className="overflow-hidden   bg-black mx-auto flex justify-around flex-row items-end">
+        <div className="overflow-hidden bg-black mx-auto flex justify-around flex-row items-start">
 
-              <img src={available} width="100px" height="100px" className="w-28 ml-3 sm:w-40 md:w-52 lg:w-60" />
-              <div className="bg-purple relative -left-6 h-8 my-auto flex space-x-3 items-end  justify-center">
-
-<a href="https://www.amazon.com/music/player/albums/B0B5ZF67NM?ref=sr_1_1&s=dmusic&keywords=heaven+in+hell+ayline+artin&crid=HA4KADOMN0VJ&sprefix=heaven+in+hell+ayline+artin%2Cdigital-music%2C119&qid=1657776156&sr=1-1"><img src={yt} width="40px" height="20px" className="my-auto w-9 sm:w-14 md:w-20" /></a>
-                <a href="https://open.spotify.com/album/5oj4ROdwOdmoPyd140nxCa"><img src={spotify} width="40px" height="20px" className="my-auto w-12 sm:w-14 md:w-20" /></a>
-                <a href="https://music.apple.com/us/album/heaven-in-hell-single/1633671388"><img src={apple} width="40px" height="20px" className="my-auto bg-white w-12 sm:w-14 md:w-20" /></a>
-
-            </div>
+              <img src={available} width="100px" height="100px" className="w-28  ml-3 sm:w-40 md:w-52 lg:w-60" />
 
 
-                    <div className='w-42'></div>
+
+                    <div className='w-42 mt-3'><img src={cd} width="100px" height="100px" className="cursor-pointer" /></div>
           </div>
       </main>
     </div>

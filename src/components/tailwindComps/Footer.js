@@ -65,7 +65,7 @@ const navigation = {
             ))}
           </div>
 
-          <p style={{height:'3.5rem', lineHeight:'3.5rem'}} className="text-white text-xs my-auto border-l-2 pl-3">queen of rock and soul</p>
+          <p style={{height:'3.5rem', lineHeight:'3.5rem'}} className="text-white text-xs  my-auto border-l-2 pl-3">queen of rock and soul</p>
 
           </div>
         </div>

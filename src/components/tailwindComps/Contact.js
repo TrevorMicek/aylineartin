@@ -4,7 +4,7 @@ import emailjs from 'emailjs-com';
 
 import Confirm from './Confirmation'
 import Contact from '../../images/6_ContactMe/PNG/contact.png'
-import bg from '../../images/6_ContactMe/PNG/Background_1.png'
+import bg from '../../images/6_ContactMe/PNG/contactBG.jpg'
 import submit from '../../images/6_ContactMe/PNG/button.png'
 import UseInput from '../../customHooks/useInput'
 function classNames(...classes) {
@@ -147,11 +147,12 @@ const navigation = {
   ],
 }
   return (
-    <div className=" overflow-hidden sm:px-6 " style={{gridColumn:"span 7", gridRowStart:"sixth", gridRowEnd:"seventh", zIndex:"22"}}>
-      <img src={bg} width="200px" height="100px" className=" bg-contact p-0 m-0 bg-no-repeat  h-72 absolute left-0  w-full" />
-      <div className="px-4 relative max-w-xl mx-auto" >
+    <div className=" overflow-hidden sm:px-6 bg-black" style={{gridColumn:"span 7", gridRowStart:"sixth", gridRowEnd:"seventh", zIndex:"22"}}>
+      <div className="flex flex-row">
+      <img src={bg} width="200px" height="100px" className=" object-contain p-0 m-0 bg-no-repeat  h-72 relative right-0  w-full" />
+      <div className="pr-4 relative max-w-xl mx-auto" >
 
-        <div className="text-center pt-16">
+        <div className="text-center pt-24">
           <h2 className="mx-auto">
             <img src={Contact} width="150px" height="100px" className="mx-auto -mt-16" loading="lazy" />
           </h2>
@@ -222,7 +223,7 @@ const navigation = {
               </div>
             </div>
 
-            <div className="sm:col-span-2">
+            <div className="mt-8 sm:col-span-2">
               <button
                 type="submit"
                 className=" mx-auto block -mt-2"
@@ -232,6 +233,7 @@ const navigation = {
             </div>
           </form>
         </div>
+      </div>
       </div>
     </div>
   )

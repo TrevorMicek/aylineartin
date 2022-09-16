@@ -4,7 +4,7 @@ import React, {useState} from 'react'
 
 import form from '../../images/4_Music/Form.png'
 import music from '../../images/4_Music/Music.png'
-import bg from '../../images/4_Music/background.png'
+import bg from '../../images/4_Music/musicBG.jpg'
 export default function Example() {
   const [learnMore, setLearnMore] = useState(false)
   const LearnSection = () => {
@@ -24,10 +24,10 @@ export default function Example() {
   }
   return (
     <div id="music" className="relative overflow-hidden max-h-96 pb-0  h-screen bg-black sm:max-h-96" style={{gridColumn:"span 7", gridRowStart:"third", gridRowEnd:"fourth", zIndex:"22", marginBottom: "2.35rem"}}>
-      <span className="absolute h-full max-h-72 z-0 text-white ">
+      <span className="absolute h-full right-0 w-72 max-h-72 z-0 text-white ">
 
             <img
-              className="relative object-cover h-96  border-2"
+              className="relative object-contain h-96  border-2"
               src={bg}
               alt=""
               width={1310}
