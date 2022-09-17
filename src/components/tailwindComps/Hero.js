@@ -9,7 +9,7 @@ import { Link } from "gatsby"
 
 import BG from '../../images/header2/darkHeader.jpg'
 import available from '../../images/available/available.png'
-import cd from '../../images/header2/header.png'
+import cd from '../../images/header2/newHeader.jpg'
 
 
 
