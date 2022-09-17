@@ -23,11 +23,11 @@ export default function Example() {
     )
   }
   return (
-    <div id="music" className="relative overflow-hidden max-h-96 pb-0  h-screen bg-black sm:max-h-96" style={{gridColumn:"span 7", gridRowStart:"third", gridRowEnd:"fourth", zIndex:"22", marginBottom: "2.35rem"}}>
-      <span className="absolute h-full right-0 w-72 max-h-72 z-0 text-white ">
+    <div id="music" className="relative overflow-hidden max-h-96 pb-0  h-screen bg-black sm:max-h-96" style={{gridColumn:"span 7", gridRowStart:"third", gridRowEnd:"fourth", zIndex:"22"}}>
+      <span className="absolute h-full right-0 w-72 max-h-72 z-0 text-white lg:w-5/12 lg:right-40">
 
             <img
-              className="relative object-contain h-96  border-2"
+              className="relative object-cover   border-2 "
               src={bg}
               alt=""
               width={1310}
@@ -36,7 +36,7 @@ export default function Example() {
 
 
           </span>
-      <div className="max-w-7xl mx-auto px-4 bg-black">
+      <div className="max-w-7xl mx-auto px-4 bg-black lg:max-w-2xl lg:pt-10">
         <div className="  px-6 flex flex-col lg:text-center">
 
           <span className='w-full flex justify-start'>

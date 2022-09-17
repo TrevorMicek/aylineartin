@@ -28,7 +28,7 @@ export default function Example() {
       <span className="absolute overflow-hidden -mr-24 z-0 text-white ">
 
             <img
-              className="relative overflow-hidden object-cover h-72 border-2"
+              className="relative overflow-hidden object-cover h-72 border-2 lg:h-full"
 
               src={portrait}
               alt=""
@@ -38,7 +38,7 @@ export default function Example() {
 
 
           </span>
-      <div className="max-w-7xl mx-auto px-4 ">
+      <div className="max-w-7xl mx-auto px-4 lg:max-w-2xl lg:pt-10">
         <div className="  px-6 flex flex-col lg:text-center">
 
           <span className='w-full flex justify-end'>

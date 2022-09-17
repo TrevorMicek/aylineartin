@@ -48,7 +48,7 @@ export default function Example() {
 
               <div className="space-x-4 -mt-1 mr-2  whitespace-nowrap md:flex md:absolute md:right-10">
                 {navigation.map((item) => (
-                  <Link to={item.href} key={item.name} className="  text-white hover:text-red-700" style={{fontSize: "10px"}}>
+                  <Link to={item.href} key={item.name} className="text-sm  text-white hover:text-red-700 lg:mt-6" >
                     {item.name}
                   </Link>
                 ))}
@@ -74,13 +74,13 @@ export default function Example() {
 
 
 
-        <div className="overflow-hidden bg-black mx-auto flex justify-around flex-row items-start">
+        <div className="overflow-hidden bg-black mx-auto flex justify-around flex-row items-start lg:justify-center lg:space-x-32">
 
               <img src={available} width="100px" height="100px" className="w-28  ml-3 sm:w-40 md:w-52 lg:w-60" />
 
 
 
-                    <div className='w-42 mt-3'><img src={cd} width="100px" height="100px" className="cursor-pointer" /></div>
+                    <div className='w-42 mt-3 lg:mt-8'><img src={cd} width="100px" height="100px" className="cursor-pointer" /></div>
           </div>
       </main>
     </div>

@@ -17,7 +17,7 @@ const IndexPage = () => {
     <Vid />
     <About />
     <Music />
-    <Interview />
+
     <PerformedAt />
     <Contact  />
   </Layout>
