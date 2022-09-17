@@ -36,7 +36,7 @@ export default function Example() {
 
 
           </span>
-      <div className="max-w-7xl mx-auto px-4 bg-black lg:max-w-2xl lg:pt-10">
+      <div className="max-w-2xl mx-auto px-4 bg-black  lg:pt-10">
         <div className="  px-6 flex flex-col lg:text-center">
 
           <span className='w-full flex justify-start'>
