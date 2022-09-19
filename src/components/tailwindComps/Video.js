@@ -41,7 +41,7 @@ export default function Example() {
 return (
   <div className="bg-black" style={{gridColumn:"span 7", gridRowStart:"first", gridRowEnd:"second", position: 'relative', zIndex:'12', top: '0vh', zIndex: '21'}}>
      <div className="mx-auto  bg-black">
-     <iframe width="560" height="315" src="https://www.youtube.com/embed/ueWI3I8Nx4Y?start=2" className="mx-auto w-full lg:h-screen lg:mb-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/ueWI3I8Nx4Y?autoplay=1&mute=1&start=2" className="mx-auto w-full sm:h-screen lg:mb-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <div className="bg-gold w-full relative  h-8 my-auto flex space-x-3 items-center  justify-center lg:h-12">
 

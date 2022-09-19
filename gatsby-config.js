@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Rock n Roll`,
+    title: `Rock n Soul`,
     description: `Music by Ayline Artin`,
     author: 'Trevor Micek',
   },
