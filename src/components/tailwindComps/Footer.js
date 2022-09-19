@@ -64,9 +64,9 @@ const navigation = {
               </a>
             ))}
           </div>
-
-          <p style={{height:'3.5rem', lineHeight:'3.5rem'}} className="text-white text-xs  my-auto border-l-2 pl-3">queen of rock and soul</p>
-
+          <div style={{height:'3.5rem', lineHeight:'3.5rem'}} className="border-l-2 flex align-center">
+            <p  className="text-white text-xs  my-auto  pl-3">queen of rock 'n soul</p>
+          </div>
           </div>
         </div>
       </footer>
