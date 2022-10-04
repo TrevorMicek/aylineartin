@@ -74,16 +74,6 @@ export default function Example() {
 
 
 
-        <div className="relative overflow-hidden bg-black mx-auto flex justify-center flex-row items-start lg:justify-center lg:space-x-32">
-
-              <img src={available} width="100px" height="100px" className="w-52  ml-3 sm:w-40 md:w-52 lg:w-60" />
-
-
-                  <div className="w-24"></div>
-                  <div className="relative">
-                    <div className='w-24  absolute top-24 right-12'><img src={cd} width="75px" height="75px" className="cursor-pointer w-16" /></div>
-                  </div>
-          </div>
       </main>
     </div>
   )

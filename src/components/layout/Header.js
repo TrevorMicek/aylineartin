@@ -2,7 +2,7 @@ import React from 'react';
 
 
 import MainHeader from '../tailwindComps/Hero'
-
+import SecondaryHeader from '../tailwindComps/SecondaryHeader'
 const Header = (props) => {
 
   const firstTitle = 'Small Business Web Design & Development'
@@ -41,7 +41,7 @@ const Header = (props) => {
           return <MainHeader />
 
         default:
-          return <StoreHeader />
+          return <SecondaryHeader />
     }
   }
 return (
