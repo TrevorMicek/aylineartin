@@ -143,7 +143,7 @@ const Reviews = () => {
 								className="bg-gold mx-auto py-1 px-2 text-black text-base"
 
 							>
-								View Details
+								Buy Now
 							</button>
 					</div>
 
