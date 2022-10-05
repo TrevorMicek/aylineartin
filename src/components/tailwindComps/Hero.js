@@ -29,8 +29,8 @@ src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=1">
 export default function Example() {
   const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' },
-    { name: 'Music', href: '/about' },
+
+    { name: 'Music', href: '/music' },
     { name: 'Contact', href: '/#contact' }
   ]
   return (
