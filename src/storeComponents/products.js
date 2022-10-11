@@ -4,7 +4,7 @@ import wings from '../images/GoldenWings.jpg'
 
 const data = [
     {
-
+        id:"golden-wings-single",
         title: 'Golden Wings Digital Single',
         description: '',
         image: wings,
@@ -13,14 +13,19 @@ const data = [
         price: '$1.25'
     },
     {
-
+        id:"heaven-single",
         title: 'Heaven In Hell Digital Single',
         description: '',
         image: heaven,
         productId: 'heavenInHellSing',
         href: 'https://buy.stripe.com/8wMeYpecm3d3cWA5kk',
         price: '$1.25'
-    },
+    }
+
+]
+
+/*
+,
     {
 
         title: 'Heaven In Hell Digital Album (Coming Soon November 2022)',
@@ -40,5 +45,5 @@ const data = [
         price: '$35'
     },
 
-]
+*/
 export default data

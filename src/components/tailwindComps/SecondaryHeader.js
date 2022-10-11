@@ -7,10 +7,10 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { ChevronRightIcon } from '@heroicons/react/solid'
 import { Link } from "gatsby"
 
-import BG from '../../images/header2/darkHeader.jpg'
+import BG from '../../images/GoldenWings.jpg'
 import available from '../../images/available/available.png'
 import cd from '../../images/header2/newHeader.jpg'
-
+import logo from '../../images/logo.png'
 
 
 function classNames(...classes) {
@@ -29,7 +29,7 @@ src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=1">
 export default function Example() {
   const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'Music', href: '/music' },
+    { name: 'Store', href: '/store' },
     { name: 'Contact', href: '/#contact' }
   ]
   return (
@@ -40,7 +40,7 @@ export default function Example() {
 <Popover as="header" className="z-10 absolute -top-2 right-0 border-solid ">
         <div className="bg-transparent pt-6">
           <nav
-            className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
+            className="relative max-w-7xl flex flex-col items-end justify-between px-4 sm:px-6"
             aria-label="Global"
           >
             <div className="flex items-center flex-1">
@@ -53,7 +53,7 @@ export default function Example() {
                 ))}
               </div>
             </div>
-
+            <img src={logo} className="relative mr-5" width="40px" height="40px" />
           </nav>
         </div>
 

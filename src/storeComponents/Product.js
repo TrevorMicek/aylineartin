@@ -113,7 +113,7 @@ const Reviews = () => {
 					return (
 
 						<div className="">
-			<div className="mx-auto overflow-hidden mb-10">
+			<div id={product.id} className="mx-auto overflow-hidden mb-10">
 			  <h2 className="sr-only">Products</h2>
 							{console.log(product)}
 			  <div className=" border-2 border-gold rounded-md">
@@ -145,6 +145,9 @@ const Reviews = () => {
 							>
 								<a href={product.href}>Buy Now</a>
 							</button>
+
+
+
 					</div>
 
 				  </div>
