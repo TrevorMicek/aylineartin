@@ -2,8 +2,7 @@ import React, {useState} from 'react'
 
 import { Link } from 'gatsby'
 import about from '../../images/3_About/about.png'
-import portrait from '../../images/3_About/Background.png'
-
+import portrait from '../../images/newAbout.jpg'
 
 export default function Example() {
 
@@ -25,19 +24,18 @@ export default function Example() {
   }
   return (
     <div id="about" className="relative overflow-hidden max-h-96 pb-0  h-screen bg-black sm:max-h-96" style={{gridColumn:"span 7", gridRowStart:"second", gridRowEnd:"third"}}>
-      <span className="absolute overflow-hidden -mr-24 z-0 text-white ">
+       <span className="absolute h-full left-0 w-72 max-h-72 z-0 text-white lg:w-5/12 lg:right-40">
 
-            <img
-              className="relative overflow-hidden object-cover h-72 border-2 lg:h-full"
+<img
+  className="relative object-cover   border-2 "
+  src={portrait}
+  alt=""
+  width={1310}
+  height={873}
+/>
 
-              src={portrait}
-              alt=""
-              width={1310}
-              height={873}
-            />
 
-
-          </span>
+</span>
       <div className="max-w-2xl mx-auto px-4 lg:pt-10">
         <div className="  px-6 flex flex-col lg:text-center">
 

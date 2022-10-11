@@ -101,7 +101,7 @@ const Reviews = () => {
 	return (
 		<div className="bg-black -mt-6" style={{gridColumn:"span 7", gridRowStart:"first", gridRowEnd:"second"}}>
 
-			<div className=" mt-6 mb-20 w-72 mx-auto">
+			<div className=" mt-12 mb-20 w-72 mx-auto">
 
 
 
@@ -113,10 +113,10 @@ const Reviews = () => {
 					return (
 
 						<div className="">
-			<div className="mx-auto overflow-hidden ">
+			<div className="mx-auto overflow-hidden mb-10">
 			  <h2 className="sr-only">Products</h2>
 							{console.log(product)}
-			  <div className=" border-2 border-gold">
+			  <div className=" border-2 border-gold rounded-md">
 
 				  <div key={product.id} className="group relative">
 					<div className="mx-auto rounded-lg overflow-hidden bg-gray-200 aspect-w-1 aspect-h-1 group-hover:opacity-75">

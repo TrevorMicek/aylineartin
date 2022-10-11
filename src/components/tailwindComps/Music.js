@@ -23,8 +23,8 @@ export default function Example() {
     )
   }
   return (
-    <div id="music" className="relative overflow-hidden max-h-96 pb-0  h-screen bg-black sm:max-h-96" style={{gridColumn:"span 7", gridRowStart:"third", gridRowEnd:"fourth", zIndex:"22"}}>
-      <span className="absolute h-full right-0 w-72 max-h-72 z-0 text-white lg:w-5/12 lg:right-40">
+    <div id="music" className="relative  max-h-96 pb-0  h-screen bg-black sm:max-h-96" style={{gridColumn:"span 7", gridRowStart:"third", gridRowEnd:"fourth", zIndex:"22"}}>
+      <span className="absolute h-full -top-6 right-0 w-6/12 max-h-72 z-0 text-white lg:w-5/12 lg:right-40">
 
             <img
               className="relative object-cover   border-2 "
