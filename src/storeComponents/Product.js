@@ -143,7 +143,7 @@ const Reviews = () => {
 								className="bg-gold mx-auto py-1 px-2 text-black text-base"
 
 							>
-								Buy Now
+								<a href={product.href}>Buy Now</a>
 							</button>
 					</div>
 
