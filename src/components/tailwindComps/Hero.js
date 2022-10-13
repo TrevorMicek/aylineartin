@@ -86,7 +86,7 @@ export default function Example() {
                 <a href="https://music.apple.com/us/album/heaven-in-hell-single/1633671388"><img src={apple} width="40px" height="20px" className="my-auto w-12 sm:w-14 md:w-20" /></a>
 
             </div>
-        <div className="relative h-52 overflow-hidden bg-black mx-auto flex justify-center flex-row items-start lg:justify-center lg:space-x-32">
+        <div className=" relative h-52 overflow-hidden bg-black mx-auto flex justify-center flex-row items-start lg:justify-center lg:space-x-32">
 
               <img src={available} width="100px" height="100px" className="w-52  ml-3 sm:w-40 md:w-52 lg:w-60" />
 
@@ -109,6 +109,17 @@ export default function Example() {
 							>
 								<Link to="/store/#golden-wings-single">Buy Now</Link>
 							</button>
+                  </div>
+
+                  <div className="relative top-10 right-10 mx-auto">
+                  <p className="text-gold text-3xl font-medium font-[`Work_Sans`]">Coming Soon!</p>
+
+
+
+<div className="relative  flex flex-col">
+<div className='w-24 mx-auto relative'><img src={wings} width="75px" height="75px" className="cursor-pointer w-20" /></div>
+
+</div>
                   </div>
           </div>
       </main>

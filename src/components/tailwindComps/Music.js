@@ -10,21 +10,25 @@ export default function Example() {
   const LearnSection = () => {
     return (
       <>
-
+      {learnMore ?  <p className="-mt-7  w-full max-w-64 relative z-10 text-left text-gray-50 text-sm font-thin ">
+      Ayline’s music is far from expected. She brings an exciting vigor to the scene while keeping her roots true to the soulful blues that she grew up listening to and playing on her old upright piano; which she still sits at to write her music. With an emotionally piercing rock ’n roll voice that can effortlessly shift to a sensual ballad, nothing is predictable about her artistry. Her depth of emotion and passion for what she creates burns through each track like a wildfire. It is no surprise the immense talent that surrounds Ayline in her band full of music legends. Percussionist, Oliver C. Brown, original member of KC and the Sunshine Band, Mick Fleetwood and Fleetwood Mac infuses a high energy to her music and on stage. Nils, a renowned producer and her lead guitarist, holds 6 #1 contemporary jazz records. Artin’s drummer, Eric Valentine, has played on more than 20 #1 singles in various genres. Her bassist Derrick Elliot, brings a unique tranquil sound to the songs. The band is rounded out by her keyboardist, Adam Peri, who adds a sensual touch to Ayline’s rock ballads. “Heaven in Hell”, an edgy hard hitting rock hit with an infectious hook, features an intoxicating percussion intro by Oliver C. Brown, and an electrifying guitar (rhythm) that electrifies the track. The song is about the dangers of being in love with one person but being tempted by a chemistry with someone else.
+          </p>
+      :
+      <>
       <p className="-mt-7 w-full max-w-64 relative z-10 text-left text-gray-50 text-sm font-thin ">
       Ayline’s music is far from expected. She brings an exciting vigor to the scene while keeping her roots true to the soulful blues that she grew up listening to and playing on her old upright piano; which she still sits at to write her music. With an emotionally piercing rock ’n roll voice that can effortlessly shift to a sensual ballad, nothing is predictable about her artistry.
       </p>
-      <Link to="/about">
-      <div className="relative -top-3 z-10 mb-5 flex flex-row justify-between text-sm cursor-pointer text-gray-400 border-b-2 border-solid border-gray-300 w-32" >Learn More...
-            </div>
-                </Link>
-
+      <div className="mb-5 flex flex-row justify-between text-sm cursor-pointer text-gray-400 border-b-2 border-solid border-gray-600 w-32 ml-4" onClick={()=>setLearnMore(true)}>Learn More...<svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+            <path fillRule="evenodd" d="M15.707 4.293a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 011.414-1.414L10 8.586l4.293-4.293a1 1 0 011.414 0zm0 6a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 111.414-1.414L10 14.586l4.293-4.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg></div>
+                </>
+  }
       </>
     )
   }
   return (
-    <div id="music" className="relative  max-h-96 pb-0  h-screen bg-black sm:max-h-96" style={{gridColumn:"span 7", gridRowStart:"third", gridRowEnd:"fourth", zIndex:"22"}}>
-      <span className="absolute h-full -top-6 right-0 w-6/12 max-h-72 z-0 text-white lg:w-5/12 lg:right-40">
+    <div id="music" className={`relative  max-h-96 pb-0  ${learnMore ? 'mb-52' : 'mb-0'} h-screen bg-black sm:max-h-96`} style={{gridColumn:"span 7", gridRowStart:"third", gridRowEnd:"fourth", zIndex:"22"}}>
+      <span className="absolute h-full top-0 right-0 w-6/12 max-h-72 z-0 text-white lg:w-5/12 lg:right-40">
 
             <img
               className="relative object-cover   border-2 "
@@ -37,6 +41,7 @@ export default function Example() {
 
           </span>
       <div className="max-w-2xl mx-auto px-4 bg-black  lg:pt-10">
+
         <div className="  px-6 flex flex-col lg:text-center">
 
           <span className='w-full flex justify-start'>

@@ -148,13 +148,13 @@ const navigation = {
 }
   return (
     <div className=" overflow-hidden sm:px-6 bg-black" style={{gridColumn:"span 7", gridRowStart:"sixth", gridRowEnd:"seventh", zIndex:"22"}}>
-      <div className="flex flex-row justify-center space-x-0 w-8/12 mx-auto sm:space-x-5 md:space-x-10">
+      <div className="flex flex-row justify-center items-end space-x-0 w-8/12 mx-auto sm:space-x-5 md:space-x-10">
       <img src={bg} width="200px" height="100px" className="mx-auto border-2 object-contain p-0 m-0 bg-no-repeat  h-72 relative right-0  w-80" />
       <div className="pr-4 relative max-w-xl mx-auto mx-auto" >
 
         <div className="text-center pt-24">
-          <h2 className="mx-auto">
-            <img src={Contact} width="150px" height="100px" className="mx-auto -mt-16" loading="lazy" />
+          <h2 className="mx-auto text-white text-lg -mt-12">
+           Join Mailing List
           </h2>
 
         </div>
