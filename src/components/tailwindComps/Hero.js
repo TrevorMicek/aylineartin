@@ -96,10 +96,17 @@ export default function Example() {
                     <div className='w-24  relative'><img src={cd} width="75px" height="75px" className="cursor-pointer w-16" /></div>
 
                   </div>
-                  <div className="relative top-32 right-24 sm:right-8 flex flex-col">
-                    <div className='w-24  relative'><img src={wings} width="75px" height="75px" className="cursor-pointer w-16" /></div>
+                  <div className="relative top-10 right-10 mx-auto">
+                  <p className="text-gold text-3xl font-medium font-[`Work_Sans`]">Coming Soon!</p>
+
+
+
+                  <div className="relative  flex flex-col">
+                  <div className='w-24 mx-auto relative'><img src={wings} width="75px" height="75px" className="cursor-pointer w-20" /></div>
 
                   </div>
+                  </div>
+
 
 
           </div>

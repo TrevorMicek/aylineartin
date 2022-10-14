@@ -64,9 +64,11 @@ export default function Example() {
 
 
         <img
-            className=" relative bg-fixed z-0 inset-0 w-full h-full object-cover"
+            className=" relative bg-fixed mx-auto z-0 inset-0 w-96 object-cover"
             src={BG}
             alt="album cover, lady in red dress. Ayline Artin"
+            width="300px"
+            height="400px"
           />
 
 
