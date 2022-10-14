@@ -27,7 +27,7 @@ export default function Example() {
     )
   }
   return (
-    <div id="music" className={`relative  max-h-96 pb-0  ${learnMore ? 'mb-52' : 'mb-0'} h-screen bg-black sm:max-h-96`} style={{gridColumn:"span 7", gridRowStart:"third", gridRowEnd:"fourth", zIndex:"22"}}>
+    <div id="music" className={`relative  ${learnMore ? 'h-screen mb-56' : 'h-96'} bg-black sm:max-h-96`} style={{gridColumn:"span 7", gridRowStart:"third", gridRowEnd:"fourth", zIndex:"22"}}>
       <span className="absolute h-full top-0 right-0 w-6/12 max-h-72 z-0 text-white lg:w-5/12 lg:right-40">
 
             <img

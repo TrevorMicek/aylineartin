@@ -27,7 +27,7 @@ export default function Example() {
     )
   }
   return (
-    <div id="about" className="relative overflow-hidden max-h-96 pb-0  h-screen bg-black sm:max-h-96" style={{gridColumn:"span 7", gridRowStart:"second", gridRowEnd:"third"}}>
+    <div id="about" className={`relative overflow-hidden   ${learnMore ? 'h-screen' : 'h-96'} bg-black sm:max-h-96`} style={{gridColumn:"span 7", gridRowStart:"second", gridRowEnd:"third"}}>
        <span className="absolute h-full left-0 w-72 max-h-72 z-0 text-white lg:w-5/12 lg:right-40">
 
 <img
