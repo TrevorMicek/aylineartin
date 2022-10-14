@@ -154,7 +154,7 @@ const navigation = {
 
         <div className="text-center pt-24">
           <h2 className="mx-auto text-white text-lg -mt-12">
-           Join Mailing List
+          <img src={Contact} width="150px" height="100px" className="mx-auto -mt-16" loading="lazy" />
           </h2>
 
         </div>

@@ -53,7 +53,7 @@ export default function Example() {
                 ))}
               </div>
             </div>
-            <img src={logo} className="relative mr-5" width="40px" height="40px" />
+            <img src={logo} className="relative mx-auto" width="100px" height="100px" />
           </nav>
         </div>
 
