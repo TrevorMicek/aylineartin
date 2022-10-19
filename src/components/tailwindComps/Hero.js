@@ -62,7 +62,7 @@ export default function Example() {
                 ))}
               </div>
             </div>
-                   <img src={logo} className="relative mx-auto -mt-2" width="100px" height="100px" />
+                   <img src={logo} className="mt-3 relative mx-auto " width="75px" height="75px" />
           </nav>
         </div>
 
@@ -73,7 +73,7 @@ export default function Example() {
 
 
         <img
-            className=" relative mb-0 pb-0 bg-fixed z-0 inset-0 w-full h-full object-cover"
+            className="  relative mb-0 pb-0 bg-fixed z-0 inset-0 w-full h-full object-cover"
             src={BG}
             alt="album cover, lady in red dress. Ayline Artin"
           />
@@ -90,18 +90,15 @@ export default function Example() {
             </div>
         <div className=" relative h-60 overflow-hidden bg-black mx-auto flex justify-center flex-row  items-start lg:justify-center lg:space-x-32">
 
-              <img src={available} width="100px" height="100px" className="w-36  relative left-12 sm:w-40 md:w-52 lg:w-60" />
+              <img src={available} width="100px" height="100px" className="w-36  relative left-6 sm:w-40 md:w-52 lg:w-60" />
 
 
 
-                  <div className="relative top-32 right-20 sm:right-5 flex flex-row space-x-2">
-                    <div className='w-24  relative'>
-                      <img src={cd} width="75px" height="75px" className="cursor-pointer w-16 h-16" /></div>
+                  <div className="relative top-32 right-24 sm:right-5 flex flex-row space-x-2">
+
+                      <img src={cd} width="75px" height="75px" className="cursor-pointer w-16 h-16" />
                       <img src={wings} width="75px" height="75px" className="cursor-pointer w-16 h-16" />
-                      <span>
-                      <img src={album} width="75px" height="75px" className="cursor-pointer w-16 h-12" />
-                      <p className="text-sm text-gold">available nov 18th</p>
-                    </span>
+
                   </div>
                   <div className="relative top-10 right-10 mx-auto">
                   <p className="text-gold text-3xl font-medium font-[`Work_Sans`]">Coming Soon!</p>
@@ -109,7 +106,10 @@ export default function Example() {
 
 
                   <div className="relative  flex flex-col">
-                  <div className='w-24 mx-auto relative'><img src={comingSoon} width="75px" height="75px" className="cursor-pointer w-20" /></div>
+                  <div className='w-24 mx-auto relative'> <span>
+                      <img src={album} width="75px" height="75px" className="cursor-pointer w-16 h-12" />
+                      <p className="text-sm text-gold">available nov 18th</p>
+                    </span></div>
 
                   </div>
                   </div>
