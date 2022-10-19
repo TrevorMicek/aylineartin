@@ -18,7 +18,7 @@ import cd from '../../images/header2/newHeader.jpg'
 import wings from '../../images/GoldenWings.jpg'
 import logo from '../../images/logo.png'
 import comingSoon from '../../images/H&Halbum.jpg'
-import album from '../../images/album.png'
+import album from '../../images/store.jpg'
 
 
 function classNames(...classes) {
@@ -97,6 +97,7 @@ export default function Example() {
                   <div className="relative top-32 right-20 sm:right-5 flex flex-row space-x-2">
                     <div className='w-24  relative'>
                       <img src={cd} width="75px" height="75px" className="cursor-pointer w-16 h-16" /></div>
+                      <img src={wings} width="75px" height="75px" className="cursor-pointer w-16 h-16" />
                       <span>
                       <img src={album} width="75px" height="75px" className="cursor-pointer w-16 h-12" />
                       <p className="text-sm text-gold">available nov 18th</p>

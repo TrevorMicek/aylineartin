@@ -7,7 +7,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { ChevronRightIcon } from '@heroicons/react/solid'
 import { Link } from "gatsby"
 
-import BG from '../../images/store.jpg'
+import BG from '../../images/album.png'
 import available from '../../images/available/available.png'
 import cd from '../../images/header2/newHeader.jpg'
 import logo from '../../images/logo.png'
