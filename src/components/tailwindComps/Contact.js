@@ -4,7 +4,7 @@ import emailjs from 'emailjs-com';
 
 import Confirm from './Confirmation'
 import Contact from '../../images/6_ContactMe/PNG/contact.png'
-import bg from '../../images/6_ContactMe/PNG/contactBG.jpg'
+import bg from '../../images/contact.jpg'
 import submit from '../../images/6_ContactMe/PNG/button.png'
 import UseInput from '../../customHooks/useInput'
 function classNames(...classes) {

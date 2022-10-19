@@ -7,7 +7,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { ChevronRightIcon } from '@heroicons/react/solid'
 import { Link } from "gatsby"
 
-import BG from '../../images/GoldenWings.jpg'
+import BG from '../../images/store.jpg'
 import available from '../../images/available/available.png'
 import cd from '../../images/header2/newHeader.jpg'
 import logo from '../../images/logo.png'
@@ -64,7 +64,7 @@ export default function Example() {
 
 
         <img
-            className=" relative bg-fixed mx-auto z-0 inset-0 w-96 object-cover"
+            className="pt-3  relative bg-fixed mx-auto z-0 inset-0 w-full object-cover"
             src={BG}
             alt="album cover, lady in red dress. Ayline Artin"
             width="300px"

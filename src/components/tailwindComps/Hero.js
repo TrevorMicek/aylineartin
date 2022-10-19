@@ -17,6 +17,8 @@ import available from '../../images/available/available.png'
 import cd from '../../images/header2/newHeader.jpg'
 import wings from '../../images/GoldenWings.jpg'
 import logo from '../../images/logo.png'
+import comingSoon from '../../images/H&Halbum.jpg'
+import album from '../../images/album.png'
 
 
 function classNames(...classes) {
@@ -92,9 +94,13 @@ export default function Example() {
 
 
 
-                  <div className="relative top-32 right-20 sm:right-5 flex flex-col">
-                    <div className='w-24  relative'><img src={cd} width="75px" height="75px" className="cursor-pointer w-16" /></div>
-
+                  <div className="relative top-32 right-20 sm:right-5 flex flex-row space-x-2">
+                    <div className='w-24  relative'>
+                      <img src={cd} width="75px" height="75px" className="cursor-pointer w-16 h-16" /></div>
+                      <span>
+                      <img src={album} width="75px" height="75px" className="cursor-pointer w-16 h-12" />
+                      <p className="text-sm text-gold">available nov 18th</p>
+                    </span>
                   </div>
                   <div className="relative top-10 right-10 mx-auto">
                   <p className="text-gold text-3xl font-medium font-[`Work_Sans`]">Coming Soon!</p>
@@ -102,7 +108,7 @@ export default function Example() {
 
 
                   <div className="relative  flex flex-col">
-                  <div className='w-24 mx-auto relative'><img src={wings} width="75px" height="75px" className="cursor-pointer w-20" /></div>
+                  <div className='w-24 mx-auto relative'><img src={comingSoon} width="75px" height="75px" className="cursor-pointer w-20" /></div>
 
                   </div>
                   </div>
