@@ -29,10 +29,10 @@ export default function Example() {
   }
   return (
     <div id="music" className={`relative bg-black z-0 ${learnMore ? 'h-full ' : 'h-96'} bg-black sm:max-h-96`} style={{gridColumn:"span 7", gridRowStart:"third", gridRowEnd:"fourth", zIndex:"22"}}>
-      <span className="absolute h-full top-0 right-0 w-5/12 max-h-60 z-0 text-white lg:w-5/12 lg:right-40">
+      <span className="absolute h-full top-0 right-0 w-5/12 max-h-60 z-0 text-white lg:w-5/12 ">
 
             <img
-              className="relative object-cover z-0 mb-20 border-2 h-fit"
+              className="relative object-cover z-0 mb-20 border-2 w-60"
               src={bg}
               alt=""
               width={1310}
