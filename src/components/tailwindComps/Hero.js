@@ -88,16 +88,16 @@ export default function Example() {
                 <a href="https://music.apple.com/us/album/heaven-in-hell-single/1633671388"><img src={apple} width="40px" height="20px" className="my-auto w-12 sm:w-14 md:w-20" /></a>
 
             </div>
-        <div className=" relative h-60 overflow-hidden bg-black mx-auto flex justify-center flex-row  items-start lg:justify-center lg:space-x-32">
+        <div className=" relative h-60 overflow-hidden bg-black mx-auto flex justify-center flex-row  items-start sm:h-80 lg:justify-center lg:space-x-32">
+        <div className="relative top-32 right-24 sm:right-5 flex flex-row space-x-2">
 
               <img src={available} width="100px" height="100px" className="w-36  relative left-6 sm:w-40 md:w-52 lg:w-60" />
 
 
 
-                  <div className="relative top-32 right-24 sm:right-5 flex flex-row space-x-2">
 
-                      <img src={cd} width="75px" height="75px" className="cursor-pointer min-w-16 w-16 h-16" />
-                      <img src={wings} width="75px" height="75px" className="cursor-pointer min-w-16 w-16 h-16" />
+                      <img src={cd} width="75px" height="75px" className="cursor-pointer min-w-16 w-16 sm:w-40" />
+                      <img src={wings} width="75px" height="75px" className="cursor-pointer min-w-16 w-16 sm:w-40 " />
 
                   </div>
                   <div className="relative top-10 right-0 mx-auto">
@@ -108,7 +108,7 @@ export default function Example() {
                   <div className="relative  flex flex-col">
                   <div className='w-24 mx-auto relative'> <span>
                       <img src={album} width="75px" height="75px" className="cursor-pointer w-16 h-12" />
-                      <p className="text-blue text-sm underline"><a href="https://aylineartin.bandcamp.com/album/heaven-in-hell-3">Pre-Order Album</a></p>
+                      <p className="text-blue text-sm underline"><a href="https://aylineartin.bandcamp.com/album/heaven-in-hell-3">Pre-Order Digital Album</a></p>
                     </span></div>
 
                   </div>

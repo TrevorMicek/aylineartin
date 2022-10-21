@@ -15,6 +15,7 @@ export default function Example() {
           </p>
       :
       <>
+
       <p className="-mt-7 w-full max-w-64 relative z-10 text-left text-gray-50 text-sm font-thin ">
       Ayline’s music is far from expected. She brings an exciting vigor to the scene while keeping her roots true to the soulful blues that she grew up listening to and playing on her old upright piano; which she still sits at to write her music. With an emotionally piercing rock ’n roll voice that can effortlessly shift to a sensual ballad, nothing is predictable about her artistry.
       </p>
