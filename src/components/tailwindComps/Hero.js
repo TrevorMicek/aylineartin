@@ -88,7 +88,7 @@ export default function Example() {
                 <a href="https://music.apple.com/us/album/heaven-in-hell-single/1633671388"><img src={apple} width="40px" height="20px" className="my-auto w-12 sm:w-14 md:w-20" /></a>
 
             </div>
-        <div className=" relative h-96 overflow-hidden bg-black mx-auto flex justify-center flex-row  items-start sm:h-screen lg:justify-center lg:space-x-32">
+        <div className=" relative h-screen overflow-hidden bg-black mx-auto flex justify-center flex-row  items-start sm:h-screen lg:justify-center lg:space-x-32">
         <div className="relative  sm:right-5 flex flex-row space-x-2 ">
 
               <img src={available} width="100px" height="100px" className="w-36  relative left-6 sm:w-40 md:w-52 lg:w-60" />
@@ -119,7 +119,7 @@ export default function Example() {
                     </span></div>
 
                   </div>
-                  <iframe className="w-32 relative right-10" style={{border: 0, width: '400px', height: '472px'}} src="https://bandcamp.com/EmbeddedPlayer/album=3336405295/size=large/bgcol=333333/linkcol=e32c14/artwork=small/transparent=true/" seamless><a href="https://aylineartin.bandcamp.com/album/heaven-in-hell-3">Heaven In Hell by Ayline Artin</a></iframe>
+                  <iframe className="w-32 relative right-10 top-10" style={{border: 0, width: '400px', height: '472px'}} src="https://bandcamp.com/EmbeddedPlayer/album=3336405295/size=large/bgcol=333333/linkcol=e32c14/artwork=small/transparent=true/" seamless><a href="https://aylineartin.bandcamp.com/album/heaven-in-hell-3">Heaven In Hell by Ayline Artin</a></iframe>
                   </div>
 
 
