@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 
 import { Link } from 'gatsby'
 import about from '../../images/3_About/about.png'
-import portrait from '../../images/newAbout.jpg'
+import portrait from '../../images/newAbout.jpeg'
 
 export default function Example() {
 

@@ -95,8 +95,8 @@ export default function Example() {
 
 
 
-                    <span className="relative top-32 right-24 sm:right-8  ">
-                      <span className="flex flex-row  space-x-2 sm:flex-col ">
+                    <span className="relative top-36 w-32  right-24 sm:right-8  ">
+                      <span className="flex flex-row justify-start sm:flex-col ">
                       <a href="https://open.spotify.com/album/5oj4ROdwOdmoPyd140nxCa" className="cursor-pointer min-w-16 w-16 sm:w-32">
                       <img src={cd} width="75px" height="75px" className="cursor-pointer min-w-16 w-16 sm:w-32" />
                       </a>
@@ -104,7 +104,7 @@ export default function Example() {
                       <img src={wings} width="75px" height="75px" className="cursor-pointer min-w-16 w-16 sm:w-32 " />\
                       </a>
                      </span>
-                      <p className="text-gold text-xl font-medium text-center"><a href="https://open.spotify.com/album/5oj4ROdwOdmoPyd140nxCa">Singles</a></p>
+                      <button className="mb-4 bg-gold text-black px-2 py-1 text-lg"><a href="https://open.spotify.com/album/5oj4ROdwOdmoPyd140nxCa">Singles</a></button>
                     </span>
                   </div>
                   <div className="relative top-10 right-0 mx-auto">
@@ -119,7 +119,7 @@ export default function Example() {
                     </span></div>
 
                   </div>
-                  <iframe className="w-32 relative right-10" style={{border: 0, width: '100%', height: '120px'}} src="https://bandcamp.com/EmbeddedPlayer/album=3336405295/size=large/bgcol=333333/linkcol=e32c14/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://aylineartin.bandcamp.com/album/heaven-in-hell-3">Heaven In Hell by Ayline Artin</a></iframe>
+                  <iframe className="w-32 relative right-10" style={{border: 0, width: '400px', height: '472px'}} src="https://bandcamp.com/EmbeddedPlayer/album=3336405295/size=large/bgcol=333333/linkcol=e32c14/artwork=small/transparent=true/" seamless><a href="https://aylineartin.bandcamp.com/album/heaven-in-hell-3">Heaven In Hell by Ayline Artin</a></iframe>
                   </div>
 
 

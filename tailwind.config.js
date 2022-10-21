@@ -11,7 +11,8 @@ module.exports = {
           'default': 'rgb(99 102 241)',
           'bg': 'rgb(10 20 30)',
           'blue': 'rgb(14 165 233)',
-          'gold': 'rgba(182,149,65,255)'
+          'gold': 'rgba(182,149,65,255)',
+          'red': 'rgba(236,27,46,255)'
     },
     backgroundImage: {
       'contact': 'url("../images/6_ContactMe/PNG/Background_1.png")',
