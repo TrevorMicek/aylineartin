@@ -96,19 +96,19 @@ export default function Example() {
 
                   <div className="relative top-32 right-24 sm:right-5 flex flex-row space-x-2">
 
-                      <img src={cd} width="75px" height="75px" className="cursor-pointer w-16 h-16" />
-                      <img src={wings} width="75px" height="75px" className="cursor-pointer w-16 h-16" />
+                      <img src={cd} width="75px" height="75px" className="cursor-pointer min-w-16 w-16 h-16" />
+                      <img src={wings} width="75px" height="75px" className="cursor-pointer min-w-16 w-16 h-16" />
 
                   </div>
-                  <div className="relative top-10 right-10 mx-auto">
-                  <p className="text-gold text-3xl font-medium font-[`Work_Sans`]">Coming Soon!</p>
+                  <div className="relative top-10 right-0 mx-auto">
+                  <p className="text-gold text-2xl font-medium font-[`Work_Sans`]">Coming Soon...11/18/22</p>
 
 
 
                   <div className="relative  flex flex-col">
                   <div className='w-24 mx-auto relative'> <span>
                       <img src={album} width="75px" height="75px" className="cursor-pointer w-16 h-12" />
-                      <p className="text-sm text-gold">available nov 18th</p>
+                      <p className="text-blue text-sm underline"><a href="https://aylineartin.bandcamp.com/album/heaven-in-hell-3">Pre-Order Album</a></p>
                     </span></div>
 
                   </div>

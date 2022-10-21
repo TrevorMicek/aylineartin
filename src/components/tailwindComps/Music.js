@@ -18,14 +18,16 @@ export default function Example() {
       <p className="-mt-7 w-full max-w-64 relative z-10 text-left text-gray-50 text-sm font-thin ">
       Ayline’s music is far from expected. She brings an exciting vigor to the scene while keeping her roots true to the soulful blues that she grew up listening to and playing on her old upright piano; which she still sits at to write her music. With an emotionally piercing rock ’n roll voice that can effortlessly shift to a sensual ballad, nothing is predictable about her artistry.
       </p>
-
+      <div className="flex flex-row z-20 justify-between text-sm cursor-pointer text-gray-400 border-b-2 border-solid border-gray-600 w-32 ml-4" onClick={()=>setLearnMore(true)}>Learn More...<svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+            <path fillRule="evenodd" d="M15.707 4.293a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 011.414-1.414L10 8.586l4.293-4.293a1 1 0 011.414 0zm0 6a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 111.414-1.414L10 14.586l4.293-4.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg></div>
                 </>
   }
       </>
     )
   }
   return (
-    <div id="music" className={`relative bg-black z-0 ${learnMore ? 'h-screen mb-56' : 'h-96'} bg-black sm:max-h-96`} style={{gridColumn:"span 7", gridRowStart:"third", gridRowEnd:"fourth", zIndex:"22"}}>
+    <div id="music" className={`relative bg-black z-0 ${learnMore ? 'h-full ' : 'h-96'} bg-black sm:max-h-96`} style={{gridColumn:"span 7", gridRowStart:"third", gridRowEnd:"fourth", zIndex:"22"}}>
       <span className="absolute h-full top-0 right-0 w-5/12 max-h-60 z-0 text-white lg:w-5/12 lg:right-40">
 
             <img
