@@ -100,7 +100,10 @@ const Reviews = () => {
 
 	return (
 		<div className="bg-black -mt-6" style={{gridColumn:"span 7", gridRowStart:"first", gridRowEnd:"second"}}>
+			<span className="flex flex-col justify-center">
 <iframe className="mx-auto mt-10" style={{border: 0, width: '350px', height: '470px'}} src="https://bandcamp.com/EmbeddedPlayer/album=3336405295/size=large/bgcol=333333/linkcol=e32c14/tracklist=false/transparent=true/" seamless><a href="https://aylineartin.bandcamp.com/album/heaven-in-hell-3">Heaven In Hell by Ayline Artin</a></iframe>
+<button className="w-52 mx-auto mb-4 bg-red text-black px-2 py-2 text-sm "><a href="https://aylineartin.bandcamp.com/album/heaven-in-hell-3">Pre-Order Digital Album</a></button>
+		</span>
 		</div>
 	)
 }
