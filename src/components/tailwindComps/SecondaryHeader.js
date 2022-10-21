@@ -47,7 +47,7 @@ export default function Example() {
 
               <div className="space-x-4 -mt-1 mr-2  whitespace-nowrap md:pt-4 md:mr-6">
                 {navigation.map((item) => (
-                  <Link to={item.href} key={item.name} className="text-sm  text-red hover:text-gold lg:mt-6" >
+                  <Link to={item.href} key={item.name} className="text-sm  text-white hover:text-red lg:mt-6" >
                     {item.name}
                   </Link>
                 ))}
