@@ -88,37 +88,30 @@ export default function Example() {
                 <a href="https://music.apple.com/us/album/heaven-in-hell-single/1633671388"><img src={apple} width="40px" height="20px" className="my-auto w-12 sm:w-14 md:w-20" /></a>
 
             </div>
-        <div className=" relative h-screen overflow-hidden bg-black mx-auto flex justify-center flex-row  items-start sm:h-screen lg:justify-center lg:space-x-32">
-        <div className="relative  sm:right-5 flex flex-row space-x-2 ">
+        <div className=" relative   bg-black mx-auto flex justify-center flex-row  items-start sm:h-screen lg:justify-center lg:space-x-32">
+        <div className="relative sm:right-5 flex flex-row space-x-2 ">
 
               <img src={available} width="100px" height="100px" className="w-36  relative left-6 sm:w-40 md:w-52 lg:w-60" />
 
 
 
-                    <span className="relative top-36 w-32  right-24 sm:right-8  ">
-                      <span className="flex flex-row justify-start sm:flex-col ">
-                      <a href="https://open.spotify.com/album/5oj4ROdwOdmoPyd140nxCa" className="cursor-pointer min-w-16 w-16 sm:w-32">
-                      <img src={cd} width="75px" height="75px" className="cursor-pointer min-w-16 w-16 sm:w-32" />
+                    <span className="relative  top-24 w-32  right-24 sm:right-8 sm:h-96 ">
+                      <span className="flex flex-row justify-start sm:flex-col sm:mt-14">
+                      <a href="https://open.spotify.com/album/5oj4ROdwOdmoPyd140nxCa" className="cursor-pointer min-w-16 w-16 sm:w-28">
+                      <img src={cd} width="65px" height="65px" className="cursor-pointer min-w-16 w-16 sm:w-32" />
                       </a>
-                      <a href="https://open.spotify.com/album/5oj4ROdwOdmoPyd140nxCa" className="cursor-pointer min-w-16 w-16 sm:w-32">
-                      <img src={wings} width="75px" height="75px" className="cursor-pointer min-w-16 w-16 sm:w-32 " />\
+                      <a href="https://open.spotify.com/album/5oj4ROdwOdmoPyd140nxCa" className="cursor-pointer min-w-16 w-16 sm:w-28 sm:relative sm:-top-3">
+                      <img src={wings} width="65px" height="65px" className="cursor-pointer min-w-16 w-16 sm:w-28 " />\
+                      </a>
+                      <a href="/" className="cursor-pointer min-w-16 w-16 sm:w-28 sm:relative sm:-top-12">
+                      <img src={album} width="65px" height="65px" className="cursor-pointer min-w-16 w-16 sm:w-28" />
                       </a>
                      </span>
                       <button className="mb-4 bg-gold text-black px-2 py-1 text-lg"><a href="https://open.spotify.com/album/5oj4ROdwOdmoPyd140nxCa">Singles</a></button>
                     </span>
                   </div>
                   <div className="relative top-10 right-0 mx-auto">
-                  <p className="text-gold text-2xl font-medium font-[`Work_Sans`]">Coming Soon...11/18/22</p>
 
-
-
-                  <div className="relative  flex flex-col">
-                  <div className=' mx-auto relative'> <span>
-                      <img src={album} width="75px" height="75px" className="cursor-pointer w-16 sm:w-32 mt-5" />
-                      <button className=" mb-4 bg-gold text-black px-1 text-sm "><a href="https://aylineartin.bandcamp.com/album/heaven-in-hell-3">Pre-Order<br /> Digital Album</a></button>
-                    </span></div>
-
-                  </div>
                   <iframe className="w-32 relative right-10 top-10" style={{border: 0, width: '400px', height: '472px'}} src="https://bandcamp.com/EmbeddedPlayer/album=3336405295/size=large/bgcol=333333/linkcol=e32c14/artwork=small/transparent=true/" seamless><a href="https://aylineartin.bandcamp.com/album/heaven-in-hell-3">Heaven In Hell by Ayline Artin</a></iframe>
                   </div>
 
